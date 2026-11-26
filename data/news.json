@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T13:47:41.9762998+00:00",
+  "generatedAt": "2026-11-26T14:22:18.7355480+00:00",
   "scope": "football-v1",
   "totalArticles": 120,
   "feeds": [
@@ -53,8 +53,8 @@
       "url": "https://news.google.com/rss/search?q=%22Club+Africain%22+football+OR+Ligue+OR+CAF+OR+mercato&hl=fr&gl=TN&ceid=TN:fr",
       "lang": "fr",
       "ok": true,
-      "fetchedCount": 58,
-      "keptCount": 45,
+      "fetchedCount": 59,
+      "keptCount": 46,
       "error": null
     },
     {
@@ -210,7 +210,7 @@
       "D": 82,
       "B": 88,
       "baseScore": 87,
-      "articleCount": 2
+      "articleCount": 3
     },
     {
       "id": "transfermarkt",
@@ -604,6 +604,31 @@
       "corroborationCount": 1,
       "scoreBreakdown": {
         "baseScore": 80,
+        "corroborationBonus": 4,
+        "freshnessDelta": 4,
+        "rumorPenalty": 0
+      }
+    },
+    {
+      "id": "9a6c9c176cb9",
+      "title": "Ligue des Champions CAF-J2 : Vente en ligne des billets du match Club Africain-Young Africans",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQemJtMGROZ3VLLXRYMEpYcnBjaGZQZHJmSTQ2M1lxbTN5WlFoU241RkpabnV4VnE1NU5maTZnNFEwdFRqQWtHcllrSjgxMWYyZGdaZ3FPdFZJZ2NPeWM5NnNHY3U4cXBULXoyWDdDUVprdGRyaWNfNlppMVdXRW00WU56TlVvZ2RqRUxtdEZkTGgtUFkwZ2dZdzJwUU9ienctYkpZckZZQjBQS2duMGFEYkZuRHlDN2lUSGtVZTIwWlhIOUl2X2ZWSGZfTETSAdIBQVVfeXFMT09DdDNiUzNMOF9CRVVQM2VUTm5uZlZXVEhRcGVBSXFuU0dyUzFZWGotNzlxcE1hZVJzX19XWmtPWjNDOEZuTkgzdEx6YUNjb3AwYmFBU29ZbTg5X1ROVWU4SUd2eTFfSkItWmNITlYyckJQOHVYQkxKal8xaDV0aHVfTDlOY3ZOcGVTeUsxdjNSMEJBVnNQV1NoZ3pDdUNCXzRiYVFyQWFuRmRQbFJwenNQMzRxcUVCLXZPdUQ1aEg0QkIxRHVYN180aXhhZFZyczh3?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-26T13:15:24.0000000Z",
+      "lang": "fr",
+      "topic": "caf",
+      "isVideo": false,
+      "sourceId": "kawarji",
+      "sourceName": "Kawarji",
+      "sourceNameAr": "كوارجي",
+      "sourceDomain": "kawarji.com",
+      "sourceCategory": "tunisian_sports",
+      "score": 95,
+      "verification": "verified",
+      "corroborationCount": 1,
+      "scoreBreakdown": {
+        "baseScore": 87,
         "corroborationBonus": 4,
         "freshnessDelta": 4,
         "rumorPenalty": 0
@@ -1110,6 +1135,31 @@
       }
     },
     {
+      "id": "4193e1d70fb6",
+      "title": "Ligue des champions CAF : Avec Zamalek vs Club Africain, tout le programme de la première journée",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPV1RuRGVZYl9QMWFPNGdGM1hGR29LelVVZ2E1QVBJNTZxa3k4Vmh1MFNtOVdTNGRNM0pRYjRTcWdnME5mQmNuUXJCdzhzVGljWl92TDN2MmlxT2FKZ3psblJqcmsxYUJDMkNURUxiNG1nU01wdUpMMkM5S2pmMExoanA1eE1NUnNraWItNGVxRnkzLUoyY0p5Z1BSanhjRlhPNzBMamppMUwwckRMbWJpaTdQY3A5VkNIT2JEanJnRlQzNUhXcnJKa2hnRmxBd2dDNjl0SkdyZXg0NWs3ZVRTTXZPRDQ2QQ?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-25T14:02:57.0000000Z",
+      "lang": "fr",
+      "topic": "caf",
+      "isVideo": false,
+      "sourceId": "google_news_fr",
+      "sourceName": "Africa Top Sports",
+      "sourceNameAr": "Africa Top Sports",
+      "sourceDomain": "news.google.com",
+      "sourceCategory": "tunisian_press",
+      "score": 78,
+      "verification": "verified",
+      "corroborationCount": 1,
+      "scoreBreakdown": {
+        "baseScore": 78,
+        "corroborationBonus": 4,
+        "freshnessDelta": -4,
+        "rumorPenalty": 0
+      }
+    },
+    {
       "id": "c21b8b1cce5b",
       "title": "​من هما نجما الإفريقي التونسي اللذان يخشاهما الزمالك؟",
       "summary": "",
@@ -1155,31 +1205,6 @@
       "scoreBreakdown": {
         "baseScore": 78,
         "corroborationBonus": 0,
-        "freshnessDelta": -4,
-        "rumorPenalty": 0
-      }
-    },
-    {
-      "id": "4193e1d70fb6",
-      "title": "Ligue des champions CAF : Avec Zamalek vs Club Africain, tout le programme de la première journée",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPV1RuRGVZYl9QMWFPNGdGM1hGR29LelVVZ2E1QVBJNTZxa3k4Vmh1MFNtOVdTNGRNM0pRYjRTcWdnME5mQmNuUXJCdzhzVGljWl92TDN2MmlxT2FKZ3psblJqcmsxYUJDMkNURUxiNG1nU01wdUpMMkM5S2pmMExoanA1eE1NUnNraWItNGVxRnkzLUoyY0p5Z1BSanhjRlhPNzBMamppMUwwckRMbWJpaTdQY3A5VkNIT2JEanJnRlQzNUhXcnJKa2hnRmxBd2dDNjl0SkdyZXg0NWs3ZVRTTXZPRDQ2QQ?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-11-25T13:11:01.0000000Z",
-      "lang": "fr",
-      "topic": "caf",
-      "isVideo": false,
-      "sourceId": "google_news_fr",
-      "sourceName": "Africa Top Sports",
-      "sourceNameAr": "Africa Top Sports",
-      "sourceDomain": "news.google.com",
-      "sourceCategory": "tunisian_press",
-      "score": 78,
-      "verification": "verified",
-      "corroborationCount": 1,
-      "scoreBreakdown": {
-        "baseScore": 78,
-        "corroborationBonus": 4,
         "freshnessDelta": -4,
         "rumorPenalty": 0
       }
@@ -1335,12 +1360,12 @@
       }
     },
     {
-      "id": "19dccec11606",
+      "id": "46b02cfa525a",
       "title": "النادي الإفريقي يستعيد ورقة مهمة قبل مواجهة الزمالك",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxOSkV3T2FreDNHaDBQNHpjcDBZV3BNbGczeU1rNENYS1YwbkFNOEtWQTRTU2V1QnQxQ1hycm5YRG5LVU11RXpJRDdBVWd3NVVsdGUzb2J1akFYN1lsQ1ZqQVYtZ29PR1Azc1ktaGZhcEtGTjFiMmdEMTFhdEZ5czRYZGNrQm9XSTJhLThIZ01fRnhNbXljOFUyTjEzTFRiRlNqTjlrb29taXFDYmQ5b0FacmtvVklyYjJPQmoyTzZVWEdQZmdoY0trWlVDN3V4MlFrVWdjM2pGRGl4Tzhyd2RZSGJYWmhMZ25QQ290M1ZaaG1maUhqaDdJVzZHY3lnX24tMDZKbi1DRE9ZaGhqQno3bkJTOWtuN2E5emVaNmF3OURncHhoRVd5ZHAtdF9WOXNUSWRGUGgzZ1Y5NDlmTmlIWVhTTmVIRzBjTFNmZFlfcHFGazZxNWhnWU1fUEYzM29lSW43VmJvZl9EMl9KVVA2blNiOURFU01uYnpGTDlxNTlwUUZaTmQ1YWdSVVVKZmp1ZllPTTdmQ09ZaUhJN29iU2NSX2RWUTJvR3dCOUR5NElBSDF5NjBwVmZ5a21YazdXRWVfQWtVSjRkc3RyR1E1a05PbFdYcmNwZDBmYjFR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi4wNBVV95cUxPRW1JYU9fTFlKV1NzSU81eHlPcDdYdy1mU3NsQUU2dTNnVTNMSU9GSkJvVWtlR2hxdWIwUjBjMHRYckRRU3VlSTF3R3BGdzZCVGxOaUU1Umw1LWtyYUppTGpNMGhldmFWaWJsVzVtMmVaeUlTOURMQXZBU1o1LTA3TGxzdGJPZER4alhNbkhyQ2NkTWtqMnVNekEwRDQ4M0lxZUF6bTlFbGRuLWVnQXVsNWsyX3h1SHFVejNCcWxPZEx1T0hibm9od2ViTzVTckVMUi11dVJCLUdtTUljbm1jUDE5bV9HdklwZnJ4NFoxMUpudm1zZ2k5MWxvZXRhTU5nOF94alhWMzRVcm43N1h1YVluOURfTG9UQ0pLMUVXcEJIaU5qaTV3VjFsa3l6NXBoYUtQRUhwOE44blZ2TkV3ZG1faXBxeWxUUElnUFdWREJYczZWdGgxUVFrWkVzZXgxTk14dkc4VzZoYnFXRFE5aWdvYTZOUGNsS0huNEtEdkR6MThqWGt5TnlhUC1hMW1qeW85RXFFbmYwSFMxSXEySFhkZVBYcTR3bDJVVHNtaGxmUE9jTjg1MHBENUxWVTQtWG5PN1JKejhMa21CVW9kM1BBUHhyZXBnMTFyelJTbEg1NnM?oc=5",
       "thumbnail": "",
-      "publishedAt": "2026-11-24T17:31:36.0000000Z",
+      "publishedAt": "2026-11-24T17:34:32.0000000Z",
       "lang": "ar",
       "topic": "caf",
       "isVideo": false,
@@ -1499,13 +1524,13 @@
       "sourceNameAr": "إرم نيوز",
       "sourceDomain": "news.google.com",
       "sourceCategory": "tunisian_press",
-      "score": 74,
-      "verification": "press",
+      "score": 70,
+      "verification": "rumor",
       "corroborationCount": 0,
       "scoreBreakdown": {
         "baseScore": 78,
         "corroborationBonus": 0,
-        "freshnessDelta": -4,
+        "freshnessDelta": -8,
         "rumorPenalty": 0
       }
     },
@@ -2635,10 +2660,10 @@
       }
     },
     {
-      "id": "9c7fd9a1aaf5",
-      "title": "القنوات الناقلة لمباراة الإفريقي والبنزرتي اليوم",
+      "id": "8592daadb525",
+      "title": "من أديداس إلى النادي الإفريقي.. قصة ريان الجبالي المثيرة",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxNelFTUU8yOGhZbC1mQzc4eExSQXFGWFpjejZfSUpHNVR3bXRuZW5XdUhaM25CRm16YmFYTVVqTWFmUkZmVVRFNnZOS25PTkJOX21NQXRiTnMxdjJSWEVOcm11YTFOYk96THN1dng1ZnpXOXR1NDN4SXlrZWFxbnE2bEtFcjRoeTlPM1FHYnJZTHoxTEZHLWtIY05lMWRyaHVxX0dseDVkQTViNHg0NWJ4cEtiemJsU3hlS0NfNWw2ZHRXNFdFM2RCMTh5TU1MT1BVLWRlRnlYcmFrVEpHUkZBV1FhcWR3RTFkdjFNc1JVUms1eUhJeFlTcm1ybTNTVVd4cVplamtILWpBQ1BraGJ6TldsMXJoOVZfRmMxN3FuRXJ6dlVmeUtUQnZqMzVSSEdhYTN2NmJ4cHQ5ZUd2MUdrSmEtTHkwcVR3c05CNUJ0VzAwUkl0bVg4MWRJQ21nMHlYVEJfbEZrd09Yd29DM1hFc0huS042ck1uUlBGREJaLVRpcTlXdmZqLVJKVXQzNjZvXzJuZkxvZ3dqNUc2MHo4M1NSb3N3cnNsU2dZTVVTdkV5aE01UmJQQ1gxWk5acVZCUkowbi0xcTF3U180UDFSVzIxYw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxQbGpsc1hNNXVaTjNON2IyTi1CdzZPNzZoejlMbE12STg1elBPR3hxVjlFaEVUNVVfX1otc0Z3QVBPMTNzQ1V1bUlmRVlydGNyTk9oLWxuR1ZOODItclBoTk9kRFg0ekRMUjd4S3dSdDNnR2IycEJKT09oTF9jd09CQk53QzQyU0VzZzBRWGViSFhLU1FhSmZsd2ZlX3hpTmN2RGhqSjNCak1fai01Mkh0MGxYakF0TURLbUNJbmp5WTlESDBRcHZmUFFMN05iRFF3TnB2SGgySTM1N3N5Yzh0cFpzbDRwM0hpamxmdndkbDZiX2YzMmRucGo2WVg2aVJKWGt3bENvS0g0aXBFaTVFZlgya29KbjZkSHlIZ05NZ3lUTU9uY3dncGdmZUUwdlJzbXNGQ0xHTWpVYXJvRGpYSHYxU0ZpUmxHcVoyNnpRaUlhN1kzNFJ1TVVJMU1ON1ZHc1JDNWhmS0lfOWpOX2s4Wm9acXhGOC1qT2JQSk1XNlhXTWlRUF8xZjlDZHdnenp6bEVkWGpnbHdzMUJGSmVodVRQZFY5QllLd0hFYUwwWVJqWW95OU0yTXkwcUUwMUhfZktSemZvRlQ5TUhKeTBVMEg4RnFSWHo5VGlpdVQ0V2RxeFZUeFl2S1FJZWxQdHM?oc=5",
       "thumbnail": "",
       "publishedAt": "2026-10-29T07:00:00.0000000Z",
       "lang": "ar",
@@ -2660,10 +2685,10 @@
       }
     },
     {
-      "id": "8592daadb525",
-      "title": "من أديداس إلى النادي الإفريقي.. قصة ريان الجبالي المثيرة",
+      "id": "9c7fd9a1aaf5",
+      "title": "القنوات الناقلة لمباراة الإفريقي والبنزرتي اليوم",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxQbGpsc1hNNXVaTjNON2IyTi1CdzZPNzZoejlMbE12STg1elBPR3hxVjlFaEVUNVVfX1otc0Z3QVBPMTNzQ1V1bUlmRVlydGNyTk9oLWxuR1ZOODItclBoTk9kRFg0ekRMUjd4S3dSdDNnR2IycEJKT09oTF9jd09CQk53QzQyU0VzZzBRWGViSFhLU1FhSmZsd2ZlX3hpTmN2RGhqSjNCak1fai01Mkh0MGxYakF0TURLbUNJbmp5WTlESDBRcHZmUFFMN05iRFF3TnB2SGgySTM1N3N5Yzh0cFpzbDRwM0hpamxmdndkbDZiX2YzMmRucGo2WVg2aVJKWGt3bENvS0g0aXBFaTVFZlgya29KbjZkSHlIZ05NZ3lUTU9uY3dncGdmZUUwdlJzbXNGQ0xHTWpVYXJvRGpYSHYxU0ZpUmxHcVoyNnpRaUlhN1kzNFJ1TVVJMU1ON1ZHc1JDNWhmS0lfOWpOX2s4Wm9acXhGOC1qT2JQSk1XNlhXTWlRUF8xZjlDZHdnenp6bEVkWGpnbHdzMUJGSmVodVRQZFY5QllLd0hFYUwwWVJqWW95OU0yTXkwcUUwMUhfZktSemZvRlQ5TUhKeTBVMEg4RnFSWHo5VGlpdVQ0V2RxeFZUeFl2S1FJZWxQdHM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxNelFTUU8yOGhZbC1mQzc4eExSQXFGWFpjejZfSUpHNVR3bXRuZW5XdUhaM25CRm16YmFYTVVqTWFmUkZmVVRFNnZOS25PTkJOX21NQXRiTnMxdjJSWEVOcm11YTFOYk96THN1dng1ZnpXOXR1NDN4SXlrZWFxbnE2bEtFcjRoeTlPM1FHYnJZTHoxTEZHLWtIY05lMWRyaHVxX0dseDVkQTViNHg0NWJ4cEtiemJsU3hlS0NfNWw2ZHRXNFdFM2RCMTh5TU1MT1BVLWRlRnlYcmFrVEpHUkZBV1FhcWR3RTFkdjFNc1JVUms1eUhJeFlTcm1ybTNTVVd4cVplamtILWpBQ1BraGJ6TldsMXJoOVZfRmMxN3FuRXJ6dlVmeUtUQnZqMzVSSEdhYTN2NmJ4cHQ5ZUd2MUdrSmEtTHkwcVR3c05CNUJ0VzAwUkl0bVg4MWRJQ21nMHlYVEJfbEZrd09Yd29DM1hFc0huS042ck1uUlBGREJaLVRpcTlXdmZqLVJKVXQzNjZvXzJuZkxvZ3dqNUc2MHo4M1NSb3N3cnNsU2dZTVVTdkV5aE01UmJQQ1gxWk5acVZCUkowbi0xcTF3U180UDFSVzIxYw?oc=5",
       "thumbnail": "",
       "publishedAt": "2026-10-29T07:00:00.0000000Z",
       "lang": "ar",
@@ -2810,10 +2835,10 @@
       }
     },
     {
-      "id": "f569ead1ff49",
-      "title": "Ligue des champions : L’Espérance et le Club Africain fixés sur leurs adversaires",
+      "id": "8d9d193c8fcb",
+      "title": "Ligue des champions : Quels adversaires pour l’Espérance et le Club Africain au tirage au sort",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU2ZWQl9KZWI2LWZXZzRRdnhxWFpwU2VZNkI2WlJNUDB0VHpBRmFGVEVyZnFvNmszTS1YeEI0Xy1GaDNGYWdYSXRacE5jVzRXM0c1c2lzZXhmeDNKbFY0ZFBSNVNCUkJiTEFKZ3ZUOUtfbEdNUG1mZ3VPNHh0UzRmZ1FaUlVXajB5SlBqRWs2ODl5M01iUUx0S0YyS2JUakQ3QUlwblMtTGtFX1hzZVg2RzdRSEZQWjNWQ0tPVk0wRHVrNGQy?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVFowUF9tWERORVJDOVZsYkhNUENfbWxwN1JjV0hsTHJMaU93OEpjbXZ3OXVRWjE1V2xORDVjYlE0c1Q4VWhWLTkwZ2FDWDZ6WktWeU9vZmx1eDhjTll2TGRwX3MtLXN5a29XQVBSd3BPMEcyNDRzWk8yZXotMGtxdVRpcmFLWDlmZHB0WVZfWFI4TGVZdkotQl91SmhidkE2bk5jN1Y4TWRsNVhFOFB5V0hweUI3ZXpxNG1GWmNBSkxOckRSNF9DTWFMQVBWYkhvZmhfVk5n?oc=5",
       "thumbnail": "",
       "publishedAt": "2026-10-28T07:00:00.0000000Z",
       "lang": "fr",
@@ -2835,10 +2860,10 @@
       }
     },
     {
-      "id": "8d9d193c8fcb",
-      "title": "Ligue des champions : Quels adversaires pour l’Espérance et le Club Africain au tirage au sort",
+      "id": "f569ead1ff49",
+      "title": "Ligue des champions : L’Espérance et le Club Africain fixés sur leurs adversaires",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVFowUF9tWERORVJDOVZsYkhNUENfbWxwN1JjV0hsTHJMaU93OEpjbXZ3OXVRWjE1V2xORDVjYlE0c1Q4VWhWLTkwZ2FDWDZ6WktWeU9vZmx1eDhjTll2TGRwX3MtLXN5a29XQVBSd3BPMEcyNDRzWk8yZXotMGtxdVRpcmFLWDlmZHB0WVZfWFI4TGVZdkotQl91SmhidkE2bk5jN1Y4TWRsNVhFOFB5V0hweUI3ZXpxNG1GWmNBSkxOckRSNF9DTWFMQVBWYkhvZmhfVk5n?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU2ZWQl9KZWI2LWZXZzRRdnhxWFpwU2VZNkI2WlJNUDB0VHpBRmFGVEVyZnFvNmszTS1YeEI0Xy1GaDNGYWdYSXRacE5jVzRXM0c1c2lzZXhmeDNKbFY0ZFBSNVNCUkJiTEFKZ3ZUOUtfbEdNUG1mZ3VPNHh0UzRmZ1FaUlVXajB5SlBqRWs2ODl5M01iUUx0S0YyS2JUakQ3QUlwblMtTGtFX1hzZVg2RzdRSEZQWjNWQ0tPVk0wRHVrNGQy?oc=5",
       "thumbnail": "",
       "publishedAt": "2026-10-28T07:00:00.0000000Z",
       "lang": "fr",
@@ -3441,31 +3466,6 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVTRrN242X3BHZFB4NEhBVll5RUtzOFhFWVRrNEZKTG1jNFdTR1hWTGZLcTJoS011S2UzT0VlZjlqTGVjMkx2T3hVOWdrSWlmUWNsbFBZRXZ3aXI3QUxtVXFCUUJOVFFqMFB5OWF2aDNnTEoyN25QeWdWcUFMNG82eXMySQ?oc=5",
       "thumbnail": "",
       "publishedAt": "2025-07-21T11:54:29.0000000Z",
-      "lang": "fr",
-      "topic": "ligue1",
-      "isVideo": false,
-      "sourceId": "google_news_fr",
-      "sourceName": "Foot Mercato",
-      "sourceNameAr": "Foot Mercato",
-      "sourceDomain": "news.google.com",
-      "sourceCategory": "tunisian_press",
-      "score": 66,
-      "verification": "rumor",
-      "corroborationCount": 0,
-      "scoreBreakdown": {
-        "baseScore": 78,
-        "corroborationBonus": 0,
-        "freshnessDelta": -12,
-        "rumorPenalty": 0
-      }
-    },
-    {
-      "id": "ca0823a84ca2",
-      "title": "Résultat Club Africain - Tunis (0-0) la 14e journée de Ligue I Pro (Tunisie) 2025/2026 09/11",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPLWZIVlVZSGZBM09fWUZ5VDZyMVA3NGlyUkwyRE1WYkRrZ1RITUJVb1pESUFVcGJRNUVzTy1wa2pJclFlUEtvb0ZlSzNWOFdvRXdsMFhEdTdZd1hkUzBFNTlFR1ZocDBsY2d2bE04a1BuVVBNQXROTm5MaDFtVWE1S1B1M20?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2025-07-21T04:12:35.0000000Z",
       "lang": "fr",
       "topic": "ligue1",
       "isVideo": false,
