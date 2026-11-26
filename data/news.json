@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T14:41:44.0108086+00:00",
+  "generatedAt": "2026-11-26T14:47:44.6558382+00:00",
   "scope": "football-v1",
   "totalArticles": 120,
   "feeds": [
@@ -63,7 +63,7 @@
       "lang": "ar",
       "ok": true,
       "fetchedCount": 100,
-      "keptCount": 78,
+      "keptCount": 81,
       "error": null
     }
   ],
@@ -192,7 +192,7 @@
       "D": 80,
       "B": 85,
       "baseScore": 89,
-      "articleCount": 10
+      "articleCount": 7
     },
     {
       "id": "kawarji",
@@ -282,7 +282,7 @@
       "D": 88,
       "B": 82,
       "baseScore": 85,
-      "articleCount": 24
+      "articleCount": 27
     },
     {
       "id": "lapresse",
@@ -336,7 +336,7 @@
       "D": 75,
       "B": 85,
       "baseScore": 82,
-      "articleCount": 4
+      "articleCount": 2
     },
     {
       "id": "footballtunisien",
@@ -444,7 +444,7 @@
       "D": 72,
       "B": 78,
       "baseScore": 78,
-      "articleCount": 74
+      "articleCount": 75
     },
     {
       "id": "google_news_ar",
@@ -462,7 +462,7 @@
       "D": 72,
       "B": 78,
       "baseScore": 78,
-      "articleCount": 41
+      "articleCount": 45
     },
     {
       "id": "x_twitter",
@@ -484,6 +484,31 @@
     }
   ],
   "articles": [
+    {
+      "id": "6e0c2acb36b3",
+      "title": "الزمالك يطلب الوقوف دقيقة حداد على ضحايا حادث الوراق قبل مواجهة الإفريقي التونسي",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBFc0NtZ05OWjdrbWx0RWs2NGpqRURGU0NvX1hvbHRzZWtYeUEySDV1WGNiODZUQ1pRbFQtaWRxSERHbE1nWDd3TmYtRDU?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-26T14:40:00.0000000Z",
+      "lang": "ar",
+      "topic": "caf",
+      "isVideo": false,
+      "sourceId": "google_news_ar",
+      "sourceName": "البوابة نيوز",
+      "sourceNameAr": "البوابة نيوز",
+      "sourceDomain": "news.google.com",
+      "sourceCategory": "tunisian_press",
+      "score": 90,
+      "verification": "verified",
+      "corroborationCount": 2,
+      "scoreBreakdown": {
+        "baseScore": 78,
+        "corroborationBonus": 8,
+        "freshnessDelta": 4,
+        "rumorPenalty": 0
+      }
+    },
     {
       "id": "8b72480dc1ed",
       "title": "رسميًا.. دقيقة حداد قبل مباراة الزمالك والإفريقي التونسي",
@@ -685,31 +710,6 @@
       }
     },
     {
-      "id": "b084d840ebe3",
-      "title": "الزمالك يطلب الوقوف دقيقة حداد قبل مباراة الإفريقي على أرواح ضحايا حادث الوراق",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi8ARBVV95cUxOSUtLdU80SS1KVTE1MkFPcGoySWVzaDhUcVZRci1GYUplZzJGcmVCdW9aY19HQ1N1X3Vqei1IU1A0aWs4Z3R3TmxLZTluR1k3YmpJbFlrWXZLaUQxVTgtbDlhMGI0SVRmdmUtRk1QSFp3RHZNRFpJcEJCdmk4dEt3cm5Za2hBUld4YzZ1TjAxclZ6SEZzVnFfWUVYSWcwdWdDSTh5Qnk4bHFOaTQyTk1WTEFXWURIdC1kVUppd1VmOTMwTG1xczVjSlJ5eXJ3T3J3amZCbkZuMU5XY3F2dzFkazJxczdVWFltQkNyX3ZKZDFuM09fVFpYV2NVSGZabGhwSnplM0V1TUNnTHBtUjE5elM1dUgxYkJrZWNWeVpTbDBkRE84TkZQOEoxYzZjb2JUSFZjcF84OHJvT2lURy1EVlhLTWc0cnI3Njh6cThhTXF3WURkb2VXdUEzNzdpaV85U3lIcDZhd1JmSzFLQVlzUFNMQkxkdFI3LXpmaTFDS1p5ZnNVeElCRnZVMGtXVGRBWHlNTGZQbHB1emZxOFN1UU5Oa0QzT040dG9rbmV6QzZHT1hJOWExV0UtN1BOWk1JYmhpRlVkdHNPRWZJN01FQUFLcm5HdXhWMWVXMU5MZktxTjlIbWtIaDVsSU1XNkZfRXNELThjZlJRU2VhamhYRVVFSWNaZjJRUktKTnB2Q2NLZHJwYkV1djZWeWZILS11RTRyalBUTkxieFNPTjFtaGQxcTh5bmVqZkIycHJ0ZFBSUG41V3VKd01MWVVPSE5scnZqa1pBOUUxZzlPNWRXTjBFRWd5azdHSzJEWW5ZcFo?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-11-26T12:54:35.0000000Z",
-      "lang": "ar",
-      "topic": "caf",
-      "isVideo": false,
-      "sourceId": "google_news_ar",
-      "sourceName": "مبتدا",
-      "sourceNameAr": "مبتدا",
-      "sourceDomain": "news.google.com",
-      "sourceCategory": "tunisian_press",
-      "score": 86,
-      "verification": "verified",
-      "corroborationCount": 1,
-      "scoreBreakdown": {
-        "baseScore": 78,
-        "corroborationBonus": 4,
-        "freshnessDelta": 4,
-        "rumorPenalty": 0
-      }
-    },
-    {
       "id": "cfd212e0f1da",
       "title": "بسبب ضحايا حادث الوراق.. الزمالك يخاطب كاف بطلب قبل مواجهة الإفريقي التونسي",
       "summary": "",
@@ -826,10 +826,10 @@
       "sourceCategory": "tunisian_sports",
       "score": 100,
       "verification": "verified",
-      "corroborationCount": 2,
+      "corroborationCount": 3,
       "scoreBreakdown": {
         "baseScore": 89,
-        "corroborationBonus": 8,
+        "corroborationBonus": 12,
         "freshnessDelta": 4,
         "rumorPenalty": 0
       }
@@ -840,7 +840,7 @@
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMi5ANBVV95cUxPSXd2dEVINWpkZVAwdnZRUjRmaUR0dmg1Zk1HdVJQOUJLUGp1OWpCS1FRTnVqRWxsVFVSMUl4ZXR6blk0MFR1XzA4bmthdkE2eVczenNHREZEZUkzUnhzcmIyb0hGVTJfT3JWUkVfeDVRU3JzTXpqVlJndVhLR2x4RXk3MW1CS3hmV2hacWFHUC12TGk1Mk5ZSXdVbW94MjdlWjE5bWtBVVhfOXYydU5RNk15SGhsenZPOUxrTnhBdl9FN05nSkRNdzVCeUVmZ3BrT0VZaXZITGZrRHQxTmdQVHVnUm83NXlKTjlvd3VobjFJcUtZck5YeVdMX3JJNDlGN3VRWVVQQnBaY1NrdjhJZE5jX3V4Mm1UQTgwZEV6djRHWTdWX2xVOWppWDdQS2R0cEFxR2Y1UFNYNnBMSmQ5dmVxUU1fb2xvU1VkRXVKTGF4WXRpSWlBWDhqQ24wLS1xR180WXRWU0tKclZwWEpqMk4tY1ZqN2g0MHNmaDdYeThDRUZlQmdidV9nZWwtSzdNWTI1YU1PX0k4ZTVpYXpxV0lLMHdrRm9yWk9XdjJiZkkyZy10ckV3TXlDTTEzdGhSZ25hVTAxNDdpWmFKZVJKSDh0Rktpa2tFdzRMRkNtVWhMaGRt?oc=5",
       "thumbnail": "",
-      "publishedAt": "2026-11-26T10:46:13.0000000Z",
+      "publishedAt": "2026-11-26T10:40:00.0000000Z",
       "lang": "ar",
       "topic": "caf",
       "isVideo": false,
@@ -849,37 +849,37 @@
       "sourceNameAr": "جوهرة أف أم",
       "sourceDomain": "jawharafm.net",
       "sourceCategory": "tunisian_sports",
-      "score": 94,
+      "score": 98,
       "verification": "verified",
-      "corroborationCount": 2,
+      "corroborationCount": 3,
       "scoreBreakdown": {
         "baseScore": 82,
-        "corroborationBonus": 8,
+        "corroborationBonus": 12,
         "freshnessDelta": 4,
         "rumorPenalty": 0
       }
     },
     {
-      "id": "585bbe321c96",
-      "title": "الافريقي التونسي يطلب زيادة عدد تذاكر جماهيره في مباراة الزمالك",
+      "id": "8b01d3e3f5a2",
+      "title": "النادي الإفريقي يشدّ الرحال إلى القاهرة لمواجهة الزمالك",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XNWFlODlMQ18zREFvRkFOV2lPRVlHbVY1S1NGQXZLMXk2c28zT3BHOTJySXk0S01nQWlvdHF0d2FvQ1k1THF6UzVqdElGU0RGRWlWSDZxalVsb0xDSVV0XzdHNWFJSm5kakE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqgRBVV95cUxPNHRuZjVDTDdZRmFEUExtQTFIWUZGMElQclkxc3ZpTi0zYWtFWlZhc0hjVDRZb3ZOWF9CeTlsYThoWXg3ZkNsZ0liWGdHWW9QSnA2bnM5WXBWRWQ2TGZ0RWpURjlTQ185UTdnU0RhWGdZTnIwUXNieHRZWEFsTDlMX0FKRHIyWEtoLTc0ZDgxdlpRZDFMTlQ3T1dLVVRraDdhVzAySHRqRy1odGdYdWdiQnAtcHIxV1c5V3ZVUHQ3NjJpVk1rMnp3bW9KWm5HRDdfbVpreW9vZmVTU2NkLWNjbHBWN1FZMDBaaUpLTkxRQndDNEk5c3lqWkNGSGZ0d2dPVGpzTHZRZmhfOUR0aFc1d3lfblZxRThqbjJmeVNZakFET1NtdTZvR25RRHdvb0EzR0lybXhPVUVydmhnS2EwZjRNa3JpeTFRdTV3WGJnY1k2Vlp0SkFFc0lYWG9EVTZfRzdadjRlVExxc1VZT1lZLTBSRFE3Rk5LdkRjVC1iR3pXNExwdXFjZVV5dkd1am03Mjd5SGN0cGMyVVlvOTV3Q0FfdFhhQnBnazVhTThDd2d6aDRZd0RiaDIzMTJGWjJSc0xvX3pubjFJUlc5dkJWSldpdlFEbVZLLS1JNG5iWG1Gc2hTV3pwaWZTbzhodFNiTmVjejZzTWJrai1KQm5sUDZWc0RXZlNkVUlvc3Z0U1RyQ2JJMnNyWjNCV1ozbHZBZDZ1UjVRbUsyUQ?oc=5",
       "thumbnail": "",
-      "publishedAt": "2026-11-26T10:42:51.0000000Z",
+      "publishedAt": "2026-11-26T08:49:44.0000000Z",
       "lang": "ar",
       "topic": "caf",
       "isVideo": false,
-      "sourceId": "google_news_ar",
-      "sourceName": "الزمالك اليوم",
-      "sourceNameAr": "الزمالك اليوم",
-      "sourceDomain": "news.google.com",
-      "sourceCategory": "tunisian_press",
-      "score": 90,
+      "sourceId": "diwanfm",
+      "sourceName": "Diwan FM",
+      "sourceNameAr": "ديوان أف أم",
+      "sourceDomain": "diwanfm.net",
+      "sourceCategory": "tunisian_sports",
+      "score": 100,
       "verification": "verified",
-      "corroborationCount": 2,
+      "corroborationCount": 3,
       "scoreBreakdown": {
-        "baseScore": 78,
-        "corroborationBonus": 8,
+        "baseScore": 85,
+        "corroborationBonus": 12,
         "freshnessDelta": 4,
         "rumorPenalty": 0
       }
@@ -922,6 +922,31 @@
       "sourceId": "google_news_ar",
       "sourceName": "إرم نيوز",
       "sourceNameAr": "إرم نيوز",
+      "sourceDomain": "news.google.com",
+      "sourceCategory": "tunisian_press",
+      "score": 78,
+      "verification": "press",
+      "corroborationCount": 0,
+      "scoreBreakdown": {
+        "baseScore": 78,
+        "corroborationBonus": 0,
+        "freshnessDelta": 0,
+        "rumorPenalty": 0
+      }
+    },
+    {
+      "id": "7677f90c56ed",
+      "title": "النادي الإفريقي يعلن تضامنه مع فيرجي تشامبرز في ظل تطورات قضيته القضائية بإسبانيا",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fYlY4TmlGT3RyRmFNV2Zlak1CY1Aybm43NzM3ZjNuRVFtYm1sV2s0UDVYUk1ucGVWdDFEZ1hwX0ZjdjBtajVoVHZ2cWNRSV9yaDdxXzJn?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-26T03:12:35.0000000Z",
+      "lang": "ar",
+      "topic": "ligue1",
+      "isVideo": false,
+      "sourceId": "google_news_ar",
+      "sourceName": "Babnet",
+      "sourceNameAr": "Babnet",
       "sourceDomain": "news.google.com",
       "sourceCategory": "tunisian_press",
       "score": 78,
@@ -1085,6 +1110,31 @@
       }
     },
     {
+      "id": "4f83bb362e30",
+      "title": "حقيقة ما قيل عن تهديد لاعبي الزمالك بعدم خوض مباراة الافريقي",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iN2RRWHZMSmZ5UGVSOUJhNWdEYy1mcEpDWW9fVk5hWXNzdjlNbVVXQW1LLXhNNWtDVUJSSm9Vcm1wMGdkN09qa3BYV1E5RFJ1Ny1SLW12Qy1aNUlNNGdDem5jVnJUdW81MUE?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-25T13:21:45.0000000Z",
+      "lang": "ar",
+      "topic": "caf",
+      "isVideo": false,
+      "sourceId": "google_news_ar",
+      "sourceName": "الزمالك اليوم",
+      "sourceNameAr": "الزمالك اليوم",
+      "sourceDomain": "news.google.com",
+      "sourceCategory": "tunisian_press",
+      "score": 74,
+      "verification": "press",
+      "corroborationCount": 0,
+      "scoreBreakdown": {
+        "baseScore": 78,
+        "corroborationBonus": 0,
+        "freshnessDelta": -4,
+        "rumorPenalty": 0
+      }
+    },
+    {
       "id": "65b0ba527a3b",
       "title": "قبل مواجهة النادي الإفريقي .... أزمة المستحقات المالية تضرب مجدداً نادي الزمالك",
       "summary": "",
@@ -1185,31 +1235,6 @@
       }
     },
     {
-      "id": "f81dbdfa33fd",
-      "title": "الزمالك يستعيد مهاجمه قبل مواجهة النادي الإفريقي",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMigARBVV95cUxQMlZlMGNLNGFNVTRFYWk2YVZLcUd4bzNWQlNncUJjMUNCSHlvMlVGX21NRUkzWEZ2eW43WWlsUWlqWkJXcU5ZM0JMVUNzS01pX3RFOGZCcjdQQURqV2ExVGdjenRhTWVqUDl5clZyMFU0WU96OHM4OW1UTF9IWjg5eTRiMEhLVFRfYlltRjhZSHdvUnE2bHRTRUJMVEpCZDh5OXlCQ2xNTUU0ejU4Z0J1ZWhkOV9FdExscUN6cTFtUEJ1WW4zOUVFdlNuZXRVRXR0b3g2SmhsYVM1Zmg5cXJZNUFxSXJCbzZTelZNSkE3bGJFSFdPblBYek9vRXZwbVF6QUd5ekdmTlBjVjlTa0R5MmNwMFNlQ0RwOWIzcThWaEh3Zy1yODc3b0xiUnV5QXV5TWNRZ3JBNGYtZ3FxV1NVTHp0TGxhQWlONWNTb3JJX01vSXc5OE9FLVFLQWIwbEtJWEdiWGRuanZjYmhWR2ZGV1lfUVdWb3kxR1MybzkzUlhET0V6cnM0UWtBMFVKOFFlUWd5LXM0dDI1SFVHenFkZFZOdEhnMG1CNFREZm5UUy1kNWlibVFRbzRpMEVSbUdIX0tNZHlyRFVaajNpLVllRHpHdTBpdTBWZERldV9zbjlqVHp4dnhHdDY0eWlON1NBUlZuc3ZCZUh1WS01dnZXSg?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-11-24T21:47:31.0000000Z",
-      "lang": "ar",
-      "topic": "caf",
-      "isVideo": false,
-      "sourceId": "diwanfm",
-      "sourceName": "Diwan FM",
-      "sourceNameAr": "ديوان أف أم",
-      "sourceDomain": "diwanfm.net",
-      "sourceCategory": "tunisian_sports",
-      "score": 89,
-      "verification": "verified",
-      "corroborationCount": 2,
-      "scoreBreakdown": {
-        "baseScore": 85,
-        "corroborationBonus": 8,
-        "freshnessDelta": -4,
-        "rumorPenalty": 0
-      }
-    },
-    {
       "id": "bfcca4b590a6",
       "title": "الإفريقي التونسي يطلب زيادة حصته من تذاكر مباراة.. وحسين لبيب يرد: ندرس الموقف (خاص)",
       "summary": "",
@@ -1235,12 +1260,12 @@
       }
     },
     {
-      "id": "19dccec11606",
+      "id": "46b02cfa525a",
       "title": "النادي الإفريقي يستعيد ورقة مهمة قبل مواجهة الزمالك",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxOSkV3T2FreDNHaDBQNHpjcDBZV3BNbGczeU1rNENYS1YwbkFNOEtWQTRTU2V1QnQxQ1hycm5YRG5LVU11RXpJRDdBVWd3NVVsdGUzb2J1akFYN1lsQ1ZqQVYtZ29PR1Azc1ktaGZhcEtGTjFiMmdEMTFhdEZ5czRYZGNrQm9XSTJhLThIZ01fRnhNbXljOFUyTjEzTFRiRlNqTjlrb29taXFDYmQ5b0FacmtvVklyYjJPQmoyTzZVWEdQZmdoY0trWlVDN3V4MlFrVWdjM2pGRGl4Tzhyd2RZSGJYWmhMZ25QQ290M1ZaaG1maUhqaDdJVzZHY3lnX24tMDZKbi1DRE9ZaGhqQno3bkJTOWtuN2E5emVaNmF3OURncHhoRVd5ZHAtdF9WOXNUSWRGUGgzZ1Y5NDlmTmlIWVhTTmVIRzBjTFNmZFlfcHFGazZxNWhnWU1fUEYzM29lSW43VmJvZl9EMl9KVVA2blNiOURFU01uYnpGTDlxNTlwUUZaTmQ1YWdSVVVKZmp1ZllPTTdmQ09ZaUhJN29iU2NSX2RWUTJvR3dCOUR5NElBSDF5NjBwVmZ5a21YazdXRWVfQWtVSjRkc3RyR1E1a05PbFdYcmNwZDBmYjFR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi4wNBVV95cUxPRW1JYU9fTFlKV1NzSU81eHlPcDdYdy1mU3NsQUU2dTNnVTNMSU9GSkJvVWtlR2hxdWIwUjBjMHRYckRRU3VlSTF3R3BGdzZCVGxOaUU1Umw1LWtyYUppTGpNMGhldmFWaWJsVzVtMmVaeUlTOURMQXZBU1o1LTA3TGxzdGJPZER4alhNbkhyQ2NkTWtqMnVNekEwRDQ4M0lxZUF6bTlFbGRuLWVnQXVsNWsyX3h1SHFVejNCcWxPZEx1T0hibm9od2ViTzVTckVMUi11dVJCLUdtTUljbm1jUDE5bV9HdklwZnJ4NFoxMUpudm1zZ2k5MWxvZXRhTU5nOF94alhWMzRVcm43N1h1YVluOURfTG9UQ0pLMUVXcEJIaU5qaTV3VjFsa3l6NXBoYUtQRUhwOE44blZ2TkV3ZG1faXBxeWxUUElnUFdWREJYczZWdGgxUVFrWkVzZXgxTk14dkc4VzZoYnFXRFE5aWdvYTZOUGNsS0huNEtEdkR6MThqWGt5TnlhUC1hMW1qeW85RXFFbmYwSFMxSXEySFhkZVBYcTR3bDJVVHNtaGxmUE9jTjg1MHBENUxWVTQtWG5PN1JKejhMa21CVW9kM1BBUHhyZXBnMTFyelJTbEg1NnM?oc=5",
       "thumbnail": "",
-      "publishedAt": "2026-11-24T17:31:36.0000000Z",
+      "publishedAt": "2026-11-24T17:34:32.0000000Z",
       "lang": "ar",
       "topic": "caf",
       "isVideo": false,
@@ -1374,12 +1399,12 @@
       "sourceNameAr": "إرم نيوز",
       "sourceDomain": "news.google.com",
       "sourceCategory": "tunisian_press",
-      "score": 74,
-      "verification": "verified",
-      "corroborationCount": 1,
+      "score": 70,
+      "verification": "rumor",
+      "corroborationCount": 0,
       "scoreBreakdown": {
         "baseScore": 78,
-        "corroborationBonus": 4,
+        "corroborationBonus": 0,
         "freshnessDelta": -8,
         "rumorPenalty": 0
       }
@@ -1430,6 +1455,31 @@
       "scoreBreakdown": {
         "baseScore": 78,
         "corroborationBonus": 8,
+        "freshnessDelta": -8,
+        "rumorPenalty": 0
+      }
+    },
+    {
+      "id": "bb680f52b316",
+      "title": "الترجي يحتج على تعيين حكم مباراته أمام النادي الصفاقسي وحكم مباراة النادي الإفريقي ضد النادي البنزرتي",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi5AZBVV95cUxNTUN3RGNheHBETXc1d2VLaThqUGVNb3BOQWJfRl85OGxMNF9faTl5bDN6NmgzQ1F4Z0xZMVZWNFpiWGZUR0RQQnZWaFVIT0tURmVWTFdzV05RZl9VaTdPX0k4cmhJMVRybVdwLURrOTBHYjhIN0xJOV9NVV9MX3JnSlYtcG4yb1pia1VZZE9sWnN6b3huNW95QU5CR2s5eXB2TkpSa1Z3Z0l3Tl9admxOOTBQZWxaY0NNTzQ0SjlTUkdKbEpxdlBXRHppYUhJS3U5QWl0ZEFyZ3BLX0pLTW1wQjNRTW44R1VmenFHcnlIdFpfNjI2UWM1RmNFLUk0cmZBWDNyQjhKSFhpWjFQcEdfSXlYY25tRUxQVlFVc1pLdGpQQmt1M3ZLN3NFQWt5T0NIeDVmU3B3TjdxTEZLR045dDQ1MmxEWl9VZTRaOW5qdTJHM0pGRGhpYllPaVdRekFYdkZBR1BwbVRiWUJ6TXlXQ2hfaExFQnN2NTBpMlJxb0xWc0NwamN4MUlDZEVoQlpWdnp3X295bEpHd1g2Z2ZoNHVPOWxLVnhLWC1TT0xXUEhCOEgtV0oxQ0NyMGJmejFYb1FwMjZNT3VGSWp0ZnByRlhlQzQtcjNBY0YycmdsZlVhS1Q3b2Y4RU1WUGl6aFNKbmhxX1VrQ0RjWGNpdnY3dDYtem1yZEhXUkhLejd6RUtydjN3N3pOdi16RW9ETDJQdjJ2UDQ1X1pKdzl4UUdoLU4tQUM0UXIzVjRGWV9MTVo1NkREdGVNSThGeExBZjN1eHJMQlJXNWQ5WkRUVXRING00TzUwenVHTTU5T2tNdkFlMGVmYnhON3ZuYVIxU1c3aUtLMG5XS0lWeXNCQXNyZ3h1SW1jSDdiLUlpUmV2Um1mYmdGdFRSMlAwcVhhTXhfekdKeUJjRjNNYmN1Y1FHMlZiZnh0VzNCYTBibEpzdXhaZk9GN0xld1N3V0YtM3hETkNjM2pneFI4Mms0S0F3QjRLamM4M0xkZkI1SVFxYjN5enR4ZGtXMFRiakNaSHF2UnRuM1RIRWNsUklDVVVoc2NYczM3c3VVWFI1UFpsY3F6ak5mYXh4bFBqSUJlUzhOVmNLcHZxR2RSeV9SMjZoVXVWcGw0aS12c2hUZ3ZVemRMOUcz?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-24T08:00:00.0000000Z",
+      "lang": "ar",
+      "topic": "ligue1",
+      "isVideo": false,
+      "sourceId": "diwanfm",
+      "sourceName": "Diwan FM",
+      "sourceNameAr": "ديوان أف أم",
+      "sourceDomain": "diwanfm.net",
+      "sourceCategory": "tunisian_sports",
+      "score": 81,
+      "verification": "verified",
+      "corroborationCount": 1,
+      "scoreBreakdown": {
+        "baseScore": 85,
+        "corroborationBonus": 4,
         "freshnessDelta": -8,
         "rumorPenalty": 0
       }
@@ -1535,31 +1585,6 @@
       }
     },
     {
-      "id": "28d4c4d49682",
-      "title": "النادي الإفريقي يحدد موعد سفره إلى القاهرة ،و3 غيابات في صفوف الزمالك",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxOaTQ0aTE0MUdPb05QbWlDR0JNYS0zSkpNYzc0aHl2ak1pUzl4dmhsREZGSmdldUJ0dnRPaE1RYkt0ZXdmVnZsVGNuR0JUS3NqT05MWk1fWGhETWc2dzVhbFA4T1VQVDlWTzBXZDh4WmREQ3NpWlFkNkFHcmhXa3dCVi1salg4TF9nNjk3dGhIX09tdWxxUEtqTXVzWE5IZlpaNTRUbkptTVE5MmZsSFh2SGlxUlNNU0tUTjFMZVM5UmwwWWxnLVp3Qkp1V3JQSE51XzF1MDhxbjg1MTVUNS1OV2xIV3AyOTM5cDg3dlNUT1h1Q2hJU3ZkRkZLQU9HUlF4TWFzcjI5WWRrMTg3Y0liOHlzUnVnUUUtS3hxVlJpOVdOaURuZTFFZzVrTVBmYnNrTTFqM3V2UFRURUdUeW1oX3YyMm5KVDNySERCSzVvNWlUOU9ZTllQRlJXLXcxMjl1aDlQbkMwam5KQ1A1TG91S3AtN0ozR0NScTd5cjZkcW1IZmkxOFR3?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-11-23T16:07:10.0000000Z",
-      "lang": "ar",
-      "topic": "caf",
-      "isVideo": false,
-      "sourceId": "google_news_ar",
-      "sourceName": "اكسبراس أف أم",
-      "sourceNameAr": "اكسبراس أف أم",
-      "sourceDomain": "news.google.com",
-      "sourceCategory": "tunisian_press",
-      "score": 78,
-      "verification": "verified",
-      "corroborationCount": 2,
-      "scoreBreakdown": {
-        "baseScore": 78,
-        "corroborationBonus": 8,
-        "freshnessDelta": -8,
-        "rumorPenalty": 0
-      }
-    },
-    {
       "id": "ba22a9252f1a",
       "title": "حارس روما الإيطالي يفاجئ جماهير الإفريقي التونسي (صورة)",
       "summary": "",
@@ -1579,81 +1604,6 @@
       "corroborationCount": 0,
       "scoreBreakdown": {
         "baseScore": 78,
-        "corroborationBonus": 0,
-        "freshnessDelta": -8,
-        "rumorPenalty": 0
-      }
-    },
-    {
-      "id": "660d646451c4",
-      "title": "النادي الإفريقي يصدر بلاغ هام ويعلن..",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOdHkyemVleVVESDQwWUVpbGxOcUdzZlVwWUY1Wk0zQm9mS01EalVoRzJaQVA4b1o0ZXVmdDB6cVR5dm0wRTN0b0RCemhsM1k1QzMwVy14YWRvTmtJX2F5c014S0V4UnFfM09ZZ0Nqa2RrUFNRWUlKVklnNUxkSnRNUV9YVEhCejB4RmMwMFAtRGZHMkNYaEZiSjVRcERZNkN3QWRrQUVhSmJYZG5WNGwwUEFvdUZua3FGWnlxang5V1VLbWFwN3prckltTWRVcU0xNGpuTzkyckQweTNMMUctZF8yYWNrT1ZEWkJWX1lCWjA0U2NzeVRsekhmc1JlQ3pBRW1pZGlMS1BmLWttRnl2QWxvemQ4NjhMNWZYcVh1MnpzbDFaSEVxWmJ3NGNwbTI5aWJjX2ZubmZoZkljTTJFaU9VRDAyMkZQY0xUQ3hQQ0xZbS1tcklz?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-11-23T11:45:53.0000000Z",
-      "lang": "ar",
-      "topic": "official",
-      "isVideo": false,
-      "sourceId": "google_news_ar",
-      "sourceName": "المصدر تونس",
-      "sourceNameAr": "المصدر تونس",
-      "sourceDomain": "news.google.com",
-      "sourceCategory": "tunisian_press",
-      "score": 70,
-      "verification": "official",
-      "corroborationCount": 0,
-      "scoreBreakdown": {
-        "baseScore": 78,
-        "corroborationBonus": 0,
-        "freshnessDelta": -8,
-        "rumorPenalty": 0
-      }
-    },
-    {
-      "id": "30ff94ccf89c",
-      "title": "الإفريقي يوضح بخصوص تذاكر مباراة الزمالك",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxONUZUNG5oSEJab0w5TzZObmxycHdfLXBUdk9JVDZYcFhvN2owTzdncUMzam9XU1BDRmw2clpoV0JwUTl3d3QzdHZxdGNDV3ZLWUhLZlY4WERuNXU4VGZlcWNtdC1Wd3hnVWpwUDllZTEwTTJvNHNoU2tvZ1hHMWtNcU5lTUJFYlhHOXpUNDg3cUo5VDl2NDh0LVBEN0Z4ajg1aTBqN2FtUXU5ZFhoSElXNWxaNVNyR05EOEttSnlGUFFpZnBUMXZRVGZ5NTdWa2pDY1hoRnhjbzVrUlZfWkU5UG80NHEtVG5WdThhUExEc1ZYeHhrei1RR1dPSFJqMjZtaXZsY3RyeF84SWVHYUVSaUlXWjJONkc3YjdvZkxMZWl6Y01rRVY2S0FLSURtMEpGUElrSm9XR2dXM2dldk5xUlloaS0wcjc5eURTcmpKSHltMTJlUGMwS2NPMmZ5a1dqS3VkcEtnOU55SmtpWnk0My1McERNenJtZWc?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-11-23T11:03:00.0000000Z",
-      "lang": "ar",
-      "topic": "caf",
-      "isVideo": false,
-      "sourceId": "jawharafm",
-      "sourceName": "Jawhara FM",
-      "sourceNameAr": "جوهرة أف أم",
-      "sourceDomain": "jawharafm.net",
-      "sourceCategory": "tunisian_sports",
-      "score": 78,
-      "verification": "verified",
-      "corroborationCount": 1,
-      "scoreBreakdown": {
-        "baseScore": 82,
-        "corroborationBonus": 4,
-        "freshnessDelta": -8,
-        "rumorPenalty": 0
-      }
-    },
-    {
-      "id": "e1535d01eaa5",
-      "title": "الإفريقي ينفي علاقته بتذاكر مباراة الزمالك",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxPSGp3Tk1YWDNpZkp2VlRaZDZ2NmtKMDNVbnppam14Tmt4bkY1X1V6WDg5V1JkOXNlN1RWR0J0UnRnTXpKYjFZTmlUd3VZeW5FSmFnSy1uWi1CSlN1RTBVMThMQ3NIWE82UmhySTZ3d2MtR3drU3pHOGxRbFBTellxclFfRXhZdnpXU3dtTXVUTXEwN2FrOU9vZHlEdmdxYUszZUtIRTZqQUhZZEF4OXRmaW5JSEE4U2hrRllpazJ0RDY0Q19KWnVjR1NkMlBpZHY4T1JsVTMzWW5fZFZ6YWlpNW81VnRxTXUteGdaeEFhcWwtSzNMWmc3ZWFYYjQyWmdyYmxReHExSExPcnVtTHRLZHVOLWEzTXcxcloybjlaTjhkY1k2Wi1Lc1JXd1NqYndlY2xWM3FadVdmOUhVQjRHdnFibF9wRjZmVldTZERkd2h3Y2dzQVduUGo5Zzk3WkJHMmJLR0s3LUVFLUlLVE5ydnlnNVRGME5PanMyYkIyTWNlWXdnVHROSUNn?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-11-23T11:03:00.0000000Z",
-      "lang": "ar",
-      "topic": "caf",
-      "isVideo": false,
-      "sourceId": "jawharafm",
-      "sourceName": "Jawhara FM",
-      "sourceNameAr": "جوهرة أف أم",
-      "sourceDomain": "jawharafm.net",
-      "sourceCategory": "tunisian_sports",
-      "score": 74,
-      "verification": "press",
-      "corroborationCount": 0,
-      "scoreBreakdown": {
-        "baseScore": 82,
         "corroborationBonus": 0,
         "freshnessDelta": -8,
         "rumorPenalty": 0
@@ -1724,12 +1674,12 @@
       "sourceNameAr": "إرم نيوز",
       "sourceDomain": "news.google.com",
       "sourceCategory": "tunisian_press",
-      "score": 78,
+      "score": 74,
       "verification": "verified",
-      "corroborationCount": 2,
+      "corroborationCount": 1,
       "scoreBreakdown": {
         "baseScore": 78,
-        "corroborationBonus": 8,
+        "corroborationBonus": 4,
         "freshnessDelta": -8,
         "rumorPenalty": 0
       }
@@ -1749,12 +1699,37 @@
       "sourceNameAr": "صدى البلد",
       "sourceDomain": "news.google.com",
       "sourceCategory": "tunisian_press",
-      "score": 82,
+      "score": 78,
       "verification": "verified",
-      "corroborationCount": 3,
+      "corroborationCount": 2,
       "scoreBreakdown": {
         "baseScore": 78,
-        "corroborationBonus": 12,
+        "corroborationBonus": 8,
+        "freshnessDelta": -8,
+        "rumorPenalty": 0
+      }
+    },
+    {
+      "id": "f68f19139ee3",
+      "title": "تعادل سلبي يحسم ديربي العاصمة بين الإفريقي والترجي التونسي",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi9wNBVV95cUxPYThzR3NicUVGeWZUTGI5c19hNEFKWkdDVXgtR2JBZUlPV1JqU3dLNEtkYWJtOVpmVnZZOGJ3cml0QWRfRnFUOG8wTlZ3T3hoQW9CVmNKenNjNzBUdGJzV2ZuR1lRdWJSQ2NxaDZOaUZJcmZaUlRxQVZoX2lQaHZYRnZXTkFHUno2QjhtY3k3VHMzQkFLYlR0clloMnhPb0NMZkxQb1JXTjJwVnpYN0M4NFdrbUtoNFB5M0x4MzZsMnVCQk03dUZzcFlJdmJnMXFCOGQ2OWZTamp4alduYTNfV3VsczJWbEQzRm1SU1o3QjNSeVM5MUVtN25sa3Y2NjhMbFZXcENCdGJQSVdQd1FlYXl0dG5JRnk1eEJCSVJXaDBsOWRpV0x5ZGthWHdSaUczZGZNeHdBTDFjNy1JMHJuUk1oMDVyblJiRkx6Smw4QmdveENac0Y2amhrdDB5UUt1Y0ZpelZjWkhRaVdYeXhXY21YVjVMT1RtX25vZXV0V09mSEo5Y05QLVE0bV9NNDFRZk91em1IajFBczdtSEs1aFAtODZVLS1qVFVzeWVIYXo2ZHhZWUlhb05OTVRGUWJDUWlvRlFpdHplMlg5cFZZZFU5bWVQR1lLSFhPWkQ5V0lLd1plLWRqSHpDcGVCQzR2emV0NWloVQ?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-22T21:46:00.0000000Z",
+      "lang": "ar",
+      "topic": "ligue1",
+      "isVideo": false,
+      "sourceId": "google_news_ar",
+      "sourceName": "الهيئة الوطنية للإعلام",
+      "sourceNameAr": "الهيئة الوطنية للإعلام",
+      "sourceDomain": "news.google.com",
+      "sourceCategory": "tunisian_press",
+      "score": 70,
+      "verification": "rumor",
+      "corroborationCount": 0,
+      "scoreBreakdown": {
+        "baseScore": 78,
+        "corroborationBonus": 0,
         "freshnessDelta": -8,
         "rumorPenalty": 0
       }
@@ -1774,12 +1749,12 @@
       "sourceNameAr": "جريدة الصباح نيوز",
       "sourceDomain": "news.google.com",
       "sourceCategory": "tunisian_press",
-      "score": 74,
-      "verification": "verified",
-      "corroborationCount": 1,
+      "score": 70,
+      "verification": "rumor",
+      "corroborationCount": 0,
       "scoreBreakdown": {
         "baseScore": 78,
-        "corroborationBonus": 4,
+        "corroborationBonus": 0,
         "freshnessDelta": -8,
         "rumorPenalty": 0
       }
@@ -1799,12 +1774,12 @@
       "sourceNameAr": "المصري اليوم",
       "sourceDomain": "news.google.com",
       "sourceCategory": "tunisian_press",
-      "score": 74,
-      "verification": "verified",
-      "corroborationCount": 1,
+      "score": 70,
+      "verification": "rumor",
+      "corroborationCount": 0,
       "scoreBreakdown": {
         "baseScore": 78,
-        "corroborationBonus": 4,
+        "corroborationBonus": 0,
         "freshnessDelta": -8,
         "rumorPenalty": 0
       }
@@ -1885,31 +1860,6 @@
       }
     },
     {
-      "id": "bb6e82a09573",
-      "title": "كأس السوبر بين النادي الافريقي والترجي الرياضي يوم 31 جانفي القادم",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi0gRBVV95cUxNUnNYMVh4LWFoTWlaYVh1NGVXNzFoWlpQWEdqVng4Nk0ybHV4OFJ4ZjFNS1hzX1U0VU5wT1VfdXlDVTVoT216MmJYVnJBZ0dINDlJQlFfcG1aY3JmVjZVWktfM3V6YTd5d3dUQUhMb2gwaDJTNkxPZWw4bVBqVUpoV1hYYnFqdEV1akR1ZUgxUFl2LUtEVFJXTFd6MXhUSjNyNkpHRjlpcllwS3p5V2VGOVNfMWtxQW1GVzNfMkNDaWoxMjJPYko3UldVUEVmakdtVkxwSk90dEdiX3kzeDk2c1VsRXNJTnF2bnB5aEU2OXpYcEQxcTdtMGk4ODB2WE1qLWpadUhOOGNUN3RmZW5wUUU2bTgxYXRDNi1wSExidTM5bGpyZHczS3VkTHd2RUluT1J6eHlXVDNWdk1VM1VJR3g2ekVFQVFrZ1NxUFBPUEtyR0F2S0JpMk1XTXZQSDJVelpKTlNXVzlSMU9XcHN5WFgwR05sa01vUUJhTXhRbEJMRHFTS0FESi0wVmE1NTdwUnhqSHlDSFBwSnpvN0JjdjlBTW56aXd6NVd2S2kyV2wzeGQtc2dvRGJSb0hpOTJfQTQ0MEl4UUF1Y2htSi1JbnEzUU4zTnpuLW05bGZKZHk5VGJOeG1JVFdIejFmeFg5SndCazZyaVZMRkVwUDNkd2E5YmNZNDFfQVV6cEhIYTBIRmpaNU5hVmlzalR2bUNCY3dRUEJYNWw2b1gxUm1tOXgtOEtRRndac05XWTBTYmZFcHN6V2lRQV9lYWlsOVMtanc?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-11-22T19:37:00.0000000Z",
-      "lang": "ar",
-      "topic": "ligue1",
-      "isVideo": false,
-      "sourceId": "mosaiquefm",
-      "sourceName": "Mosaïque FM",
-      "sourceNameAr": "موزاييك أف أم",
-      "sourceDomain": "mosaiquefm.net",
-      "sourceCategory": "tunisian_sports",
-      "score": 85,
-      "verification": "verified",
-      "corroborationCount": 1,
-      "scoreBreakdown": {
-        "baseScore": 89,
-        "corroborationBonus": 4,
-        "freshnessDelta": -8,
-        "rumorPenalty": 0
-      }
-    },
-    {
       "id": "01601637203b",
       "title": "رسميا.. اتحاد الكرة التونسي يكشف موعد كأس السوبر بين الإفريقي والترجي",
       "summary": "",
@@ -1924,12 +1874,12 @@
       "sourceNameAr": "إرم نيوز",
       "sourceDomain": "news.google.com",
       "sourceCategory": "tunisian_press",
-      "score": 74,
+      "score": 70,
       "verification": "official",
-      "corroborationCount": 1,
+      "corroborationCount": 0,
       "scoreBreakdown": {
         "baseScore": 78,
-        "corroborationBonus": 4,
+        "corroborationBonus": 0,
         "freshnessDelta": -8,
         "rumorPenalty": 0
       }
@@ -2024,12 +1974,12 @@
       "sourceNameAr": "إرم نيوز",
       "sourceDomain": "news.google.com",
       "sourceCategory": "tunisian_press",
-      "score": 74,
+      "score": 78,
       "verification": "verified",
-      "corroborationCount": 1,
+      "corroborationCount": 2,
       "scoreBreakdown": {
         "baseScore": 78,
-        "corroborationBonus": 4,
+        "corroborationBonus": 8,
         "freshnessDelta": -8,
         "rumorPenalty": 0
       }
@@ -2080,31 +2030,6 @@
       "scoreBreakdown": {
         "baseScore": 78,
         "corroborationBonus": 8,
-        "freshnessDelta": -12,
-        "rumorPenalty": 0
-      }
-    },
-    {
-      "id": "c54f67bffec3",
-      "title": "الرابطة1: التشكيلة الأساسية لمباراة الدربي بين الإفريقي والترجي",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxQd0xoQkxZOGFTMXJtNURtS1lueXBJOXJiaU8tcGhNcG1IQm1vcXpSN0cxdXNzOUozNXhUeVFjdEpjMXpnbEVpWC1iWFctdXliajQ0QlplX0txbGxPUUpCb0NMaGRGbXBiMWx0RHIxcFpBTVRwMFhtWllaTGh2NmtKN0hzZGRiSDYwMGV3VkdnQlczd1VYZXBYREVEOWotNkhvcDh1d1M4eGxjS2x6cFFya0xSZ1BEVXN4Qk5BaDRQdC1PODFUM3MzZFpUSWJMVjFKV0FVOGNyTjRLREtXdkxqQXhNSXNVdnhJNUgtNEx3WFZKWldKQ29LZHpzeWh4ZTRKdnJEb0U0MnpXOGNDc1htNEtKOTNnOFhJNFFVOUk0ZEE5ZUZvNlB6b1hMSzd1U3FiblVud3l0SFZub1J6eVVZVmh4ZEFuZTZLeUpCdGpLZjE5Qjl5XzAxRUFOcWxJRzhFaWYxMXdIZGlZSVFUdDQwLUF2Q1pfTUQ4R0RuXzdxeTQ2RHJaeFpiRnVsMFNLRzRIMWVhLXY4MmhuLUJUTnhjN2V3OXFGQ0VSRVlFYXZwdFBOVDdveHZiMjNQeXlrbDFYdGNUeHBtTnBRMWdFcC1ucGdqNGtSSEV1VUV4a0U3WmIzQ0ZoUjZFRjU1MVF3NzNPNTJDX1BrazJzX0t3NFktRDdXbVdIRnVYV0xMb3RsRUU0b3pybWloa193LWxVX3pQTmx5d0RiZVF2SGpvdVo3WERRVnFvcWsyUFBVeU5jSHhBcnA5bmtPZDEzSGEyLTNNRlFkRUlHaUhwQ2ViSUNF?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-11-22T12:49:26.0000000Z",
-      "lang": "ar",
-      "topic": "squad",
-      "isVideo": false,
-      "sourceId": "diwanfm",
-      "sourceName": "Diwan FM",
-      "sourceNameAr": "ديوان أف أم",
-      "sourceDomain": "diwanfm.net",
-      "sourceCategory": "tunisian_sports",
-      "score": 73,
-      "verification": "press",
-      "corroborationCount": 0,
-      "scoreBreakdown": {
-        "baseScore": 85,
-        "corroborationBonus": 0,
         "freshnessDelta": -12,
         "rumorPenalty": 0
       }
@@ -2210,6 +2135,31 @@
       }
     },
     {
+      "id": "a54edcd56b1a",
+      "title": "مباراة النادي الإفريقي ضد الترجي الرياضي التونسي : اهداف المباراة مع تشكيلة الفريقين والنتائج : مباشر على Winwin",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi1ANBVV95cUxOekxaOWo4Wjg1QmIzRXhESVhnZHhrWi1zYU40NF9vd0MwUnBnSTc5N0hQelVRNy0yM1hjM0M3dVJ3X2hCemtvWndJU2Q5Tk8xdHVuMFlvU08wVWNpc1p0dU9PVDJtbFFZLXJvV3M2MUdJLWZUOVRwVlEtNERud0p4eXhJbHFiQTExemRoZ25tdzhGTnN4UG9BSkVCcHhkbVVPYVRjRWlXNTdZVndQNW5icE1qUXA2U2JBN2lLRVNOS2FCQ3NCVjRlRGdyNGdaRGs0eTVmZDFGNjZSNFVyTl8yNU5Pbm56YUxyTmhJNFAyY2Q1MnJRdk10c3piVl9zZllRYnJQYWdtN08tUFdjai1PdFh6cmtNb3VjaXVMTGlfV0tMU2tJdGFiV2NiT2cwQURPU3kwVnRja2p3QjZxSlREQ3NNRVFKZ2dNSENXUUh6VkNJRi1NbFBqNnFnX0xCeExuM3A5T3NHMFJMRURDTVhjWmpMNkxMb0hZSkNQSUpRMDd2WGc5bzNORzkzcUNsSWpFVW5pUERfNTZEZ1g4R081bmdBX19jUS0yWjFGWVkxY1M4RjVfZ043QV8wZk9HOHFlNE5vUTN5T3BnUGhqZldkQjNxLUg?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-22T08:00:00.0000000Z",
+      "lang": "ar",
+      "topic": "squad",
+      "isVideo": false,
+      "sourceId": "winwin",
+      "sourceName": "Winwin / Kooora",
+      "sourceNameAr": "وين وين / كووورة",
+      "sourceDomain": "winwin.com",
+      "sourceCategory": "international",
+      "score": 77,
+      "verification": "verified",
+      "corroborationCount": 1,
+      "scoreBreakdown": {
+        "baseScore": 85,
+        "corroborationBonus": 4,
+        "freshnessDelta": -12,
+        "rumorPenalty": 0
+      }
+    },
+    {
       "id": "e4e52f948af6",
       "title": "4 قنوات تنقل ديربي تونس بين الإفريقي والترجي",
       "summary": "",
@@ -2255,6 +2205,31 @@
       "scoreBreakdown": {
         "baseScore": 85,
         "corroborationBonus": 4,
+        "freshnessDelta": -12,
+        "rumorPenalty": 0
+      }
+    },
+    {
+      "id": "9a87987e4dd5",
+      "title": "دربي العاصمة | النادي الإفريقي × الترجي 🔴⚪",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SQWVyMFNzRUFybnYwelZ1WkJjNXM1cXF0TXBqRVV5VjlvQldidlVsdjdPRlhfZVYyd1g1b1gyRXVHalM2ajNsYXk4ZGRmTXotMF9vMEZCMXl5bDBy?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-21T16:07:22.0000000Z",
+      "lang": "ar",
+      "topic": "ligue1",
+      "isVideo": false,
+      "sourceId": "google_news_ar",
+      "sourceName": "YouTube",
+      "sourceNameAr": "YouTube",
+      "sourceDomain": "news.google.com",
+      "sourceCategory": "tunisian_press",
+      "score": 66,
+      "verification": "rumor",
+      "corroborationCount": 0,
+      "scoreBreakdown": {
+        "baseScore": 78,
+        "corroborationBonus": 0,
         "freshnessDelta": -12,
         "rumorPenalty": 0
       }
@@ -2635,6 +2610,56 @@
       }
     },
     {
+      "id": "e916b0e25b23",
+      "title": "منافس الزمالك بدوري الأبطال.. حرب البيانات تشتعل بين الإفريقي والترجي التونسي",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5WTnlwTnBLT0lzejhVQjk1cDJ1R0o1ZDZwVDNTVXVPMTg0aHJCX3A5S0dndWdYZ1ltLW1iazIyQ0M5VnY0LUJF?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-09T10:45:00.0000000Z",
+      "lang": "ar",
+      "topic": "caf",
+      "isVideo": false,
+      "sourceId": "google_news_ar",
+      "sourceName": "صدى البلد",
+      "sourceNameAr": "صدى البلد",
+      "sourceDomain": "news.google.com",
+      "sourceCategory": "tunisian_press",
+      "score": 66,
+      "verification": "rumor",
+      "corroborationCount": 0,
+      "scoreBreakdown": {
+        "baseScore": 78,
+        "corroborationBonus": 0,
+        "freshnessDelta": -12,
+        "rumorPenalty": 0
+      }
+    },
+    {
+      "id": "4c50558bbf47",
+      "title": "شاهد أهداف وأبرز فرص مباراة النادي الإفريقي ومازيمبي اليوم",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMijwRBVV95cUxQZTd4NHk4WkdDZFdkQ0dUV01xOUppQzVyY3hBbVFZbnozZVVGNk9UVzduNm51VTlmdk1ocWdZaTh1aDNIaUlBeUJiTFh1TXFkS19LeDZEVzdocGx1UlJBMDZjZXY1VkY3UG1neUR3THJ4Y1lKdHhvTkI2VGNXcnYtRGkyRmJJZzJucC1XXzI4dVJvekNzU21DT0lPVGdoWFY3LS1SUmZNeDZJdV9DdWd4ZTJuUjk1Z0h2eDhYZk5wdXVKME1TMXp2UHFMdjAxVlJfajNtS3dwajBrTC1YY2VXYnhYVHlEaG8zNjBlR1paYXRGaWd1QjdZTzQyb2hsUWZiVzBxM0NlX1lKQ3E1SHhTYU1oaVpqT09odndzZVpMaEdzOXhYNmUzZXVLN05tVVdyUjM3aWZxRm9ubEZNa2dEWmJuanNoLUs4dUtYVUowMGRTMkhiS0tsTzYyWDFJaE1KUVdIZWhKRmkyUzE0Q2hYWXg4S3JUQkxNcHlxVWU3UkJpQ09Fd0labDJ6UkJyX3ZOdmlOclM0MzFrWnJ1X1ZsRnd4dk9IQlVXVF9IRWFEN2l3aU1uTHB4empvLXI4N3NBSGRhclA5WHpQNHNPM21hYlJSX0w0M0ZZSFdQUkotdGE3eVgtdTN0c0dvd2xxSGVXaldUOHktYzZFX1BueHVSbWo2VGFrOGJGVWdTMzNzWQ?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-09T08:00:00.0000000Z",
+      "lang": "ar",
+      "topic": "ligue1",
+      "isVideo": false,
+      "sourceId": "winwin",
+      "sourceName": "Winwin / Kooora",
+      "sourceNameAr": "وين وين / كووورة",
+      "sourceDomain": "winwin.com",
+      "sourceCategory": "international",
+      "score": 73,
+      "verification": "press",
+      "corroborationCount": 0,
+      "scoreBreakdown": {
+        "baseScore": 85,
+        "corroborationBonus": 0,
+        "freshnessDelta": -12,
+        "rumorPenalty": 0
+      }
+    },
+    {
       "id": "227d7a1934cb",
       "title": "Club Africain-Espérance : Après cinq communiqués, la FTF appelle à mettre fin à l’escalade",
       "summary": "",
@@ -2651,6 +2676,56 @@
       "sourceCategory": "tunisian_press",
       "score": 66,
       "verification": "official",
+      "corroborationCount": 0,
+      "scoreBreakdown": {
+        "baseScore": 78,
+        "corroborationBonus": 0,
+        "freshnessDelta": -12,
+        "rumorPenalty": 0
+      }
+    },
+    {
+      "id": "4b2eb7c3a545",
+      "title": "حقيقة رغبة النادي الإفريقي في ضم مدافع منتخب تونس",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxPTUc4S2ZwN21uYW5YX25DWE9IVWZZMUNoTDRnQWZNWHQxXzFJT3dKeEdpdmxCdk14bmZhSDROUTM5OHBtTS1NelZsdGVkemJ4dXNrSzBMVndHNzRlNlpUM2JUVkhuSmZ5N1RrZFpRa0hkc0VkVnJyWkJtakRJVEdHSFlibDZmQkhTdklMamhzdFdFYWhVY3BFMU00dTVtMEVJOWpJYmx6aU1pa0psWUpxSjFSSk41WXY1cUY4elNEeE5ReWdWZ2N6aXJTdXdsQ0llQ2JxOUhGUUFKY0xkVnMxb3dKenhBdzk2X3lSUUJIdDBjMy1KLV9ZLVl5QkZTSzJOYW9RdUFORFhyaDBPTEVHYmZfcHBTZ1VuVEFwNXdvZkNYc01mQVd0NmpjWUFlMjllSS1OLW8yN2tNVGNkZWVzZnRwV1I1dEZUeWtRQVMxLU9YRjc0SVNlUnVqX3ZCZTAtNDNYVHp5RXZTcExRYjdVd2I4b2kxRVhGZjMzcDl2aThEcUFKYUE3REtndGFxcUJKZU90NWVuTHRfT1JvclBlbDJpd2RkNkhmMXBqdXIxbXZ2a0gzRDFyWDltcExzR1FaX211ZER5WQ?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-08T08:00:00.0000000Z",
+      "lang": "ar",
+      "topic": "ligue1",
+      "isVideo": false,
+      "sourceId": "winwin",
+      "sourceName": "Winwin / Kooora",
+      "sourceNameAr": "وين وين / كووورة",
+      "sourceDomain": "winwin.com",
+      "sourceCategory": "international",
+      "score": 73,
+      "verification": "press",
+      "corroborationCount": 0,
+      "scoreBreakdown": {
+        "baseScore": 85,
+        "corroborationBonus": 0,
+        "freshnessDelta": -12,
+        "rumorPenalty": 0
+      }
+    },
+    {
+      "id": "cc98fa641fff",
+      "title": "Club Africain - Espérance de Tunis Statistiques: Football Scores & Résultats",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUGFlTlp4TkgtRklwZGhsbENVVlpMbHZIdU54eUdpRGNjZUJ2ZnpDOXdqMWZ2dWJFYm5IcmJiSGgtZGxCSG5VZ0RrT29Kc2ZzSjk4X183aHlrX0x6WmtGU3RvLUppYUhmVjkyekl1VENxamNIRFI1QWJhZ2J2X0kxZGQydGtMbGZWYXZQaVdGQmNnUmZvQnNtRGtwc0h1QUtTdklOVVpsVlVTR3h5b1ZWZTFXYmhwdVBfT2paQ3FrUjFNSWJlNThj?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-08T06:27:51.0000000Z",
+      "lang": "fr",
+      "topic": "ligue1",
+      "isVideo": false,
+      "sourceId": "google_news_fr",
+      "sourceName": "Eurosport",
+      "sourceNameAr": "Eurosport",
+      "sourceDomain": "news.google.com",
+      "sourceCategory": "tunisian_press",
+      "score": 66,
+      "verification": "rumor",
       "corroborationCount": 0,
       "scoreBreakdown": {
         "baseScore": 78,
@@ -2689,6 +2764,31 @@
       "title": "القنوات الناقلة لمباراة النادي الإفريقي وساقية الداير اليوم",
       "summary": "",
       "url": "https://news.google.com/rss/articles/CBMingRBVV95cUxOTWh1RW5BWDRYS3BxUGdfVExieXpHc3BjaUw0b2czNFIzVWNHZVJfYjNsTGIzQWFJb3JWc3lscmtOeXo1MXVaeGVmUGQ4NmZKamNqbFVQZ0xSYnNSWFRIS2hhVDdzOTl3WDBGaHh2bTVsYy05dzlGdC1VWUtxSmszbHFJVk5HNnNlQzM4OWdYS2pvTDVrT3ZVWTV6REREdDB1LTV3dDJNaUQ4QlFoV3pTV2lFejFST0NHblZKd0cwNDAxNHpFclprbEFHQl85c0NGNGYyamwwcDVIZjRVLTdlMDJmdFRlUkwzQkp5dUpvUjUzZHBscFcxVENqSUtZc0pMa3FLdjFWN2ppTG05SHVpQjNRcFZudDY1bUxrMFM5ai1HUHQwLTF5azA2VHJORUQycmlqa0pVUWVZdmdYTzd0WlBGUmdYa0gyRWtFR3kzdE5CdjZ0WHg4c290aWNzYkQ0RElmLW1jQUJuYnZpM3pZTTEzSE0tandNSXZJcEF6RDdCU3pmaHRmUVliQzV4MFg2Rkx6d0xjSjZ6VFNnZGhVZlpQbFQ2ZlV5bUppT0lpVnd2RWM4Y1pkY0ZaTzM2QUFqMWdWVkZSVVI0RC1nOUd3V0V2SVg1UXBkSUY3ZDloYlRUdUtDaWVNbG9NZG4yTEdLYzhveEFEMGxBRXJtTEwyV2FoNS1Hdm5Id1BfT190bXJMRWRfcVdUZDFTeUc3Zw?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-07T08:00:00.0000000Z",
+      "lang": "ar",
+      "topic": "ligue1",
+      "isVideo": false,
+      "sourceId": "winwin",
+      "sourceName": "Winwin / Kooora",
+      "sourceNameAr": "وين وين / كووورة",
+      "sourceDomain": "winwin.com",
+      "sourceCategory": "international",
+      "score": 73,
+      "verification": "press",
+      "corroborationCount": 0,
+      "scoreBreakdown": {
+        "baseScore": 85,
+        "corroborationBonus": 0,
+        "freshnessDelta": -12,
+        "rumorPenalty": 0
+      }
+    },
+    {
+      "id": "271e84ae149c",
+      "title": "الترجي يخسر أحد أوراقه المهمة قبل مواجهة النادي الإفريقي",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMi_wNBVV95cUxOcDRpTGt1RXluNVNWYnVRZkVhSnh3Mmd6VHlmajFKUkU2cWRTUWFOcHJ6WDdnTEtjbHhNSEMtb0xWeDFZZEZEMHU5RFFLT2NkLUFxdDN1LXBBSndXdHlqRy1KTUt2eXFyRzdnMDlmZTFfREJhSmZaZ181WjVxYjc0N3hKNTRBWVdxd1pzaVMwY3F1cWFEMm1Qek0xR3B2SzllbURPa1g2eTZIRW5ScFVLLXNrUWMzVmk1TWVKVHpBQ215b2dhRlhGamtxcEE1UmJ4SmpJVzhRX0dNNkxEWVZYRTM2ZjV2dXZEbi13MTlGaU1HQkE2SXNDeHB5Yy12blFHUFVOeE16WWFPWkRnek04cHpaWEloRmZBbHlKNzhDU3FWSGZGalhXSV9xM2x2U0laT3RNMHA2aGs2MVNiWDQxN3U4ekpvRFk5V2gwQ193a1dsRk1FVV9TVTMtX0I3QnM3cTcxelByR1BaR2FwRktraFFsT0Y3dkdWbl90dlNnWkpKSEtJT0lBazNMYzhVTkJOMjNFNXBiOTkzSjVWeXZYSmx6ZGY3MlVhUEZTU2xjQTk4NFNpa0FhOG5INTlsSi1RWXd1MTFSUjFtd1QwUDFOVnVISlVUblhQMlB3R2dGZTZJT2pmck9oeEMtYkNiQ1VxRHhDbU90YzRBNkUxTjVv?oc=5",
       "thumbnail": "",
       "publishedAt": "2026-11-07T08:00:00.0000000Z",
       "lang": "ar",
@@ -2760,18 +2860,18 @@
       }
     },
     {
-      "id": "a01400d70d02",
-      "title": "Progrés Sakiet Eddaïer - Club Africain Statistiques: Football Scores & Résultats",
+      "id": "57c97a349139",
+      "title": "Résultat Progrès SE - Club Africain (0-0) la 7e journée de Ligue I Pro (Tunisie) 2026/2027 07/11",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTktjdElCNmlQYVZXVklCcEJTeVJXVm9CazFHQzFfZlZNOWk4bWQ2MkoxenpndGNaMExKWVJzN3U2UTl4dVRReW1DanhXbkJfRHJFRldJRG1jVUFDVjc0d3NvSEVpOEtUUkQ2TFMzaEhuZUdxbkRRTWdFVm5ObkREN2lIamlvaWxobHB3ak5Bcm9XVmpScDZyQVlEbjlQb3RSYzY2dzdxSFNfTWJMUzVuYjZzRkxzaG5UREc3RFJtOGM5YzUwWDd1VkpHZWswUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORE5NWW5OUlBFR0draUZmdjdqd3ZiMnM2QTdsNHV1UXV1cmtCY3lLckJscUNId25lUzAwdVlUNHhSUU9mc2JnSDNaMlJQS3lFbG53TG5VVUNTeWtXVlNqZnY3QVNBTXNCSzhoWTVJZkc3YW0yT0JRTUxOLXgtZzg3NXlSbnJRMWl5Uzd6M3BudEw0QmVVdnJz?oc=5",
       "thumbnail": "",
       "publishedAt": "2026-11-07T08:00:00.0000000Z",
       "lang": "fr",
       "topic": "ligue1",
       "isVideo": false,
       "sourceId": "google_news_fr",
-      "sourceName": "Eurosport",
-      "sourceNameAr": "Eurosport",
+      "sourceName": "Foot Mercato",
+      "sourceNameAr": "Foot Mercato",
       "sourceDomain": "news.google.com",
       "sourceCategory": "tunisian_press",
       "score": 66,
@@ -2785,18 +2885,18 @@
       }
     },
     {
-      "id": "57c97a349139",
-      "title": "Résultat Progrès SE - Club Africain (0-0) la 7e journée de Ligue I Pro (Tunisie) 2026/2027 07/11",
+      "id": "a01400d70d02",
+      "title": "Progrés Sakiet Eddaïer - Club Africain Statistiques: Football Scores & Résultats",
       "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORE5NWW5OUlBFR0draUZmdjdqd3ZiMnM2QTdsNHV1UXV1cmtCY3lLckJscUNId25lUzAwdVlUNHhSUU9mc2JnSDNaMlJQS3lFbG53TG5VVUNTeWtXVlNqZnY3QVNBTXNCSzhoWTVJZkc3YW0yT0JRTUxOLXgtZzg3NXlSbnJRMWl5Uzd6M3BudEw0QmVVdnJz?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTktjdElCNmlQYVZXVklCcEJTeVJXVm9CazFHQzFfZlZNOWk4bWQ2MkoxenpndGNaMExKWVJzN3U2UTl4dVRReW1DanhXbkJfRHJFRldJRG1jVUFDVjc0d3NvSEVpOEtUUkQ2TFMzaEhuZUdxbkRRTWdFVm5ObkREN2lIamlvaWxobHB3ak5Bcm9XVmpScDZyQVlEbjlQb3RSYzY2dzdxSFNfTWJMUzVuYjZzRkxzaG5UREc3RFJtOGM5YzUwWDd1VkpHZWswUQ?oc=5",
       "thumbnail": "",
       "publishedAt": "2026-11-07T08:00:00.0000000Z",
       "lang": "fr",
       "topic": "ligue1",
       "isVideo": false,
       "sourceId": "google_news_fr",
-      "sourceName": "Foot Mercato",
-      "sourceNameAr": "Foot Mercato",
+      "sourceName": "Eurosport",
+      "sourceNameAr": "Eurosport",
       "sourceDomain": "news.google.com",
       "sourceCategory": "tunisian_press",
       "score": 66,
@@ -2885,6 +2985,56 @@
       }
     },
     {
+      "id": "c3dcaa0d4043",
+      "title": "3 لاعبين لم يعد لهم مكان في النادي الإفريقي التونسي",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiygNBVV95cUxOR2dvVi1uOVFEd0VnYllWSUxjWEZ0OWh2aDNFSG8yRzFLR3dtOTlRS01sa29SNUM3Z2xraUtVTjFSSDUyc25VcVh6UWMyOWNVWXMyNjRWQmFpdnd4Y3laVWtDa0lBWVQxS2FYVWJuTjFuLXlIMTU4ZTBCdE5fSUVDSjV3X0R6YjkzLWlZVzVBcExYdHlIVWdHYXJ4RGFUdjJsMTdhZTBFYVE4Z1k4cHZHUlZvbnVqQjFqV0pxTE9Va0xXTGV6aDBBSEtjM2lraEU2ZDZxaHItUUtmRmx2NUgyd3loQ2xvU2xvb2V0QV9ZX05MOGlmQklnVng2SDNRX00yd1NLUDUtdlN1WXBoSTFOdGtkXzdsdVhkaUNqdDV0U3lwN1pRVGJ3WDhZSWpoWk1PRXNnR2xjVGNkX3ZxMjBXVEdGZzYxSVRKRXF4NTlMUWlMLV9GeEJ5al90REc2ZHBRWTdmVkVfZVYwME9iTlM5bmJFdHNMNmhBbkhwSEYtRFNGcUpUREpzTl9nNGF6WG8wN2NFZ3lJZHVJaWoweHAwMTRwcDFRdE9vbWJHZWJ2Y2djb1lhSGNpQTJmMlpTSkl5c19fdWlsNThtdw?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-05T08:00:00.0000000Z",
+      "lang": "ar",
+      "topic": "ligue1",
+      "isVideo": false,
+      "sourceId": "winwin",
+      "sourceName": "Winwin / Kooora",
+      "sourceNameAr": "وين وين / كووورة",
+      "sourceDomain": "winwin.com",
+      "sourceCategory": "international",
+      "score": 73,
+      "verification": "press",
+      "corroborationCount": 0,
+      "scoreBreakdown": {
+        "baseScore": 85,
+        "corroborationBonus": 0,
+        "freshnessDelta": -12,
+        "rumorPenalty": 0
+      }
+    },
+    {
+      "id": "8b206a4b22b6",
+      "title": "الإفريقي التونسي يكسب نزاعه ضد نادٍ برتغالي في محكمة \"كاس\" الدولية",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5PemtGMWFmQjNxUm9CdERHSFdCdThlUlFJUnFsWF8xZ1JRT015UXZaMFVJRXg0Mkw1MHdoYmlmVmQxWUE1Mjg1N29hLVd4SG1H?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-05T08:00:00.0000000Z",
+      "lang": "ar",
+      "topic": "ligue1",
+      "isVideo": false,
+      "sourceId": "google_news_ar",
+      "sourceName": "إرم نيوز",
+      "sourceNameAr": "إرم نيوز",
+      "sourceDomain": "news.google.com",
+      "sourceCategory": "tunisian_press",
+      "score": 66,
+      "verification": "rumor",
+      "corroborationCount": 0,
+      "scoreBreakdown": {
+        "baseScore": 78,
+        "corroborationBonus": 0,
+        "freshnessDelta": -12,
+        "rumorPenalty": 0
+      }
+    },
+    {
       "id": "0ff0235feae0",
       "title": "LNFP : le Club Africain, le CS Sfaxien et le Stade Tunisien sanctionnés",
       "summary": "",
@@ -2935,6 +3085,31 @@
       }
     },
     {
+      "id": "9cb08e54ff4b",
+      "title": "تطور مفاجئ بشأن ملف اعتراض الإفريقي على الخسارة أمام الملعب التونسي",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9rSlc2SFV1RTFqdDQxZ2dQT1ZrSWQxUGM1ZFIzdXpYNi1iejNNSnltZDJZcDdqdVpqcDlLX29PYTVSTC1GMEtQd0EwV2VSUWQz?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-04T08:00:00.0000000Z",
+      "lang": "ar",
+      "topic": "ligue1",
+      "isVideo": false,
+      "sourceId": "google_news_ar",
+      "sourceName": "إرم نيوز",
+      "sourceNameAr": "إرم نيوز",
+      "sourceDomain": "news.google.com",
+      "sourceCategory": "tunisian_press",
+      "score": 70,
+      "verification": "verified",
+      "corroborationCount": 1,
+      "scoreBreakdown": {
+        "baseScore": 78,
+        "corroborationBonus": 4,
+        "freshnessDelta": -12,
+        "rumorPenalty": 0
+      }
+    },
+    {
       "id": "f261863fbc3d",
       "title": "Pronostic Zamalek SC Club Africain - Ligue des Champions CAF - Grp. B (28/11/2026)",
       "summary": "",
@@ -2960,31 +3135,6 @@
       }
     },
     {
-      "id": "b115acff11b0",
-      "title": "النادي الإفريقي يُدوّن إثارة بعد مباراة الملعب التونسي",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihgRBVV95cUxQTGVWZE50LWhDZ3Vya2xQMEZUeUhNOUlxTVZVY3l3T3puN1JuODVkb25tVmhTRS1rTkpfa1Q4TXZZenZWRjFkU045S0E5bVFGMjEtc1FpZ1Rpd1RMTWhSVkQ5Y1FaUEdRME53ZGdOODdicHQ3VVJ5OC1MMDZpaUFQWGFHenNWMlNwaEdPRWhSUTNJNGNwb0JSSFV6bTVBUWZmb3pLcXZlY01BM1hyM3BYQVZvODBUSkY2djRNVk1zQzRjaG9DdU9ORmpqZU5zRi02V1dwSnI0bDg1ckptN2pDT1lhd0s4ckNiWUgxLTg3eWxzeGJqMkszTF96b0dPTGxScVhVa2VwOVRRSjF3bzNXdkpzQ212ZDRPdWl4aUd6QldNdUNmR095RENxTnF2bWtzc3FLVEdSNTlXM0hsQS13b0ltN2g3WWVQemdFMGdyd3JlWDZSVXJUY2xCYm1nOW5nZ05CNEFXWHJDd0U3YWJ0Z05BTkotem03OUNjaHQ5WHdiYjBmb1NPOS1EUzJhaVd4UGk2Mm8zU2F6YTREblRlYlB1WF8wYUtHc2k2OHVhZ2tDcXduTWhTOWlpSEpNWmRDTUxBOTJvNFM1Q0tGMVh1QURJSVZ0WkVHVjJPSEFqTElvSmt3dkhDTmxCcFNMSlVtMThvdXg0YVlORDlGNWQzZjJudDlSZw?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-11-03T08:00:00.0000000Z",
-      "lang": "ar",
-      "topic": "ligue1",
-      "isVideo": false,
-      "sourceId": "mosaiquefm",
-      "sourceName": "Mosaïque FM",
-      "sourceNameAr": "موزاييك أف أم",
-      "sourceDomain": "mosaiquefm.net",
-      "sourceCategory": "tunisian_sports",
-      "score": 81,
-      "verification": "verified",
-      "corroborationCount": 1,
-      "scoreBreakdown": {
-        "baseScore": 89,
-        "corroborationBonus": 4,
-        "freshnessDelta": -12,
-        "rumorPenalty": 0
-      }
-    },
-    {
       "id": "ab3733ad687b",
       "title": "3 لاعبين يتحملون مسؤولية خسارة الإفريقي أمام الملعب التونسي",
       "summary": "",
@@ -3005,6 +3155,31 @@
       "scoreBreakdown": {
         "baseScore": 85,
         "corroborationBonus": 4,
+        "freshnessDelta": -12,
+        "rumorPenalty": 0
+      }
+    },
+    {
+      "id": "3a54305abf8f",
+      "title": "Stade Tunisien - Club Africain en direct - Ligue 1 tunisienne : Football Scores & Résultats - 03/11/2026",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd3FSZlEwMGMwQTNkZmVsRUZ3bzd0aDRHVUwxbkZRNFFsbTVwN0xjV2hHM3NIbXNfVmdja3BNZ1Byby1xejU0TVN3ZXNYNXVyclhwR1pDQTdPcGdhUS1QMndHcHV1c2lRZlluNTRlbUcxb3pfYVdwbnVvREl3U25DSlJYZlVyeVhkS09RV045aXlFalNkNmRnZVBVSVlQaE5tS1YzVVdpcDVCTzV1c0xPR05oaHM?oc=5",
+      "thumbnail": "",
+      "publishedAt": "2026-11-03T08:00:00.0000000Z",
+      "lang": "fr",
+      "topic": "ligue1",
+      "isVideo": false,
+      "sourceId": "google_news_fr",
+      "sourceName": "Eurosport",
+      "sourceNameAr": "Eurosport",
+      "sourceDomain": "news.google.com",
+      "sourceCategory": "tunisian_press",
+      "score": 74,
+      "verification": "verified",
+      "corroborationCount": 2,
+      "scoreBreakdown": {
+        "baseScore": 78,
+        "corroborationBonus": 8,
         "freshnessDelta": -12,
         "rumorPenalty": 0
       }
@@ -3060,31 +3235,6 @@
       }
     },
     {
-      "id": "3a54305abf8f",
-      "title": "Stade Tunisien - Club Africain en direct - Ligue 1 tunisienne : Football Scores & Résultats - 03/11/2026",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd3FSZlEwMGMwQTNkZmVsRUZ3bzd0aDRHVUwxbkZRNFFsbTVwN0xjV2hHM3NIbXNfVmdja3BNZ1Byby1xejU0TVN3ZXNYNXVyclhwR1pDQTdPcGdhUS1QMndHcHV1c2lRZlluNTRlbUcxb3pfYVdwbnVvREl3U25DSlJYZlVyeVhkS09RV045aXlFalNkNmRnZVBVSVlQaE5tS1YzVVdpcDVCTzV1c0xPR05oaHM?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-11-03T08:00:00.0000000Z",
-      "lang": "fr",
-      "topic": "ligue1",
-      "isVideo": false,
-      "sourceId": "google_news_fr",
-      "sourceName": "Eurosport",
-      "sourceNameAr": "Eurosport",
-      "sourceDomain": "news.google.com",
-      "sourceCategory": "tunisian_press",
-      "score": 74,
-      "verification": "verified",
-      "corroborationCount": 2,
-      "scoreBreakdown": {
-        "baseScore": 78,
-        "corroborationBonus": 8,
-        "freshnessDelta": -12,
-        "rumorPenalty": 0
-      }
-    },
-    {
       "id": "1933c9c331db",
       "title": "Stade Tunisien – Club Africain : Un derby pour refaire le classement",
       "summary": "",
@@ -3105,31 +3255,6 @@
       "scoreBreakdown": {
         "baseScore": 78,
         "corroborationBonus": 8,
-        "freshnessDelta": -12,
-        "rumorPenalty": 0
-      }
-    },
-    {
-      "id": "76e22790cd6d",
-      "title": "القنوات الناقلة لمباراة النادي الإفريقي والملعب التونسي",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihARBVV95cUxQUmZIMmZIanFYSHF5anFCNGczMEpvMHFSWjZIVVZhaEkyODRDRjM4UWV6OEtVZzduM2Y2NTJkVEFXdHR4ektTeWNVVzNFVTFmS3N4azdXZVhTOHlBOVhjMEVCWFBtdm5jZVdjVWtSQ1RQV0VsaVotRW1acXZDeVdIYW9VMFEyWFB1bjMzc2xzNlZJN2hFOWUwRnUxaGh3TVJfbFhnLXlGaTNDZFNYaERNMjVKYlhmeE9nclNxdlhZeDJxYmltLUkyOV9MQ3UxVFR6ZXlpMFBvcXFCZWZkSVNRLVp1SHhFNVg4ZFJHYzZSUXd4d3d4ODRWNHRCX05YOTJpU1hocVp4NnZCcmJzSFhXa3J1ckNoYXdSck5xSHoyRkVmNExxS25jUUJZU2VfVW9MVndTVVpfelphbjYyTHcwVVF6OFZiYzQwTnJCOTBMZTdrdTRIUzZJanVQSzNMMFZBV3lIVFNtX3pRYmc5aUJpbGtxT2pEakRWRWg4RExKVVc0M3h4TXh0THZwaGtqb3UweGhmX2J5dy14T2ZlN1NkUlk0MzlXaF9BRnJ6TnR5YTQtR3pVRncwTTdkQmNXeHc5SHNSQkdWYXFTbzB3Z2dVMU5BRWFIdWMtZFloUThMY29FTVV2OFpWd0NYVk45QmRrTGNNdnJQeHp2RHhIMHR1VFI1ZTU?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-11-03T08:00:00.0000000Z",
-      "lang": "ar",
-      "topic": "ligue1",
-      "isVideo": false,
-      "sourceId": "winwin",
-      "sourceName": "Winwin / Kooora",
-      "sourceNameAr": "وين وين / كووورة",
-      "sourceDomain": "winwin.com",
-      "sourceCategory": "international",
-      "score": 73,
-      "verification": "press",
-      "corroborationCount": 0,
-      "scoreBreakdown": {
-        "baseScore": 85,
-        "corroborationBonus": 0,
         "freshnessDelta": -12,
         "rumorPenalty": 0
       }
@@ -3355,131 +3480,6 @@
       "scoreBreakdown": {
         "baseScore": 78,
         "corroborationBonus": 8,
-        "freshnessDelta": -12,
-        "rumorPenalty": 0
-      }
-    },
-    {
-      "id": "8592daadb525",
-      "title": "من أديداس إلى النادي الإفريقي.. قصة ريان الجبالي المثيرة",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMi7wNBVV95cUxQbGpsc1hNNXVaTjNON2IyTi1CdzZPNzZoejlMbE12STg1elBPR3hxVjlFaEVUNVVfX1otc0Z3QVBPMTNzQ1V1bUlmRVlydGNyTk9oLWxuR1ZOODItclBoTk9kRFg0ekRMUjd4S3dSdDNnR2IycEJKT09oTF9jd09CQk53QzQyU0VzZzBRWGViSFhLU1FhSmZsd2ZlX3hpTmN2RGhqSjNCak1fai01Mkh0MGxYakF0TURLbUNJbmp5WTlESDBRcHZmUFFMN05iRFF3TnB2SGgySTM1N3N5Yzh0cFpzbDRwM0hpamxmdndkbDZiX2YzMmRucGo2WVg2aVJKWGt3bENvS0g0aXBFaTVFZlgya29KbjZkSHlIZ05NZ3lUTU9uY3dncGdmZUUwdlJzbXNGQ0xHTWpVYXJvRGpYSHYxU0ZpUmxHcVoyNnpRaUlhN1kzNFJ1TVVJMU1ON1ZHc1JDNWhmS0lfOWpOX2s4Wm9acXhGOC1qT2JQSk1XNlhXTWlRUF8xZjlDZHdnenp6bEVkWGpnbHdzMUJGSmVodVRQZFY5QllLd0hFYUwwWVJqWW95OU0yTXkwcUUwMUhfZktSemZvRlQ5TUhKeTBVMEg4RnFSWHo5VGlpdVQ0V2RxeFZUeFl2S1FJZWxQdHM?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-10-29T07:00:00.0000000Z",
-      "lang": "ar",
-      "topic": "ligue1",
-      "isVideo": false,
-      "sourceId": "winwin",
-      "sourceName": "Winwin / Kooora",
-      "sourceNameAr": "وين وين / كووورة",
-      "sourceDomain": "winwin.com",
-      "sourceCategory": "international",
-      "score": 73,
-      "verification": "press",
-      "corroborationCount": 0,
-      "scoreBreakdown": {
-        "baseScore": 85,
-        "corroborationBonus": 0,
-        "freshnessDelta": -12,
-        "rumorPenalty": 0
-      }
-    },
-    {
-      "id": "931e18a94590",
-      "title": "Résultat Club Africain - Bizertin (3-2) la 6e journée de Ligue I Pro (Tunisie) 2026/2027 29/10",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeU82S2dsanM2dGlrYmxIOXVndWw3Q2FiNHhoZjJRZUxfbGFpaHBObFNXMTZIdmVJZGIxekFtY05QLUY1UldiT0lVbzRNLWZ1NFg3aG5rZXdXRjVERnpPQzVqWEg5eUJmUXY2TVdLOVc5UnhBT2pfOVY3UDd2LTQzYnBKVVA?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-10-29T07:00:00.0000000Z",
-      "lang": "fr",
-      "topic": "ligue1",
-      "isVideo": false,
-      "sourceId": "google_news_fr",
-      "sourceName": "Foot Mercato",
-      "sourceNameAr": "Foot Mercato",
-      "sourceDomain": "news.google.com",
-      "sourceCategory": "tunisian_press",
-      "score": 66,
-      "verification": "rumor",
-      "corroborationCount": 0,
-      "scoreBreakdown": {
-        "baseScore": 78,
-        "corroborationBonus": 0,
-        "freshnessDelta": -12,
-        "rumorPenalty": 0
-      }
-    },
-    {
-      "id": "ff84c5648475",
-      "title": "Ligue 1 | 6ème J. : Le CSS défie l’Espérance, le Club Africain reçoit le CAB",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdUdteVFBanZ3V2pLSkhSMGY1SWR4TmdOa2NFdDNtYWRrWlQ5VE5Md2tJdmdkX0FKZEQxelFRcDhpZmZYZUYyaWhhTlp0T1NqM01keWpFMnk5N0JRSWFrNk93NzFRdko5M1RQQ0ZGaEpYeVRiMDR6OXZRTzRoYU5IdVROeWlaNHlmLVZEWDNkTnd6SGlQcWFiREZacjFXbzl2YmJIS1ViRkViNTlJRUJjQ1hCUzA0VUJF?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-10-29T07:00:00.0000000Z",
-      "lang": "fr",
-      "topic": "ligue1",
-      "isVideo": false,
-      "sourceId": "google_news_fr",
-      "sourceName": "webdo",
-      "sourceNameAr": "webdo",
-      "sourceDomain": "news.google.com",
-      "sourceCategory": "tunisian_press",
-      "score": 66,
-      "verification": "rumor",
-      "corroborationCount": 0,
-      "scoreBreakdown": {
-        "baseScore": 78,
-        "corroborationBonus": 0,
-        "freshnessDelta": -12,
-        "rumorPenalty": 0
-      }
-    },
-    {
-      "id": "42c9ff54d25a",
-      "title": "Club Africain - CA Bizertin en direct - Ligue 1 tunisienne : Football Scores & Résultats - 29/10/2026",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOW9salh1SVNjOGFYR0xHUEhzMzBwUHJpODBsemg5Vk1EME9VYldOYTU1N1BJVHFmZTF1NzhWaDR4cnNRNm5mbElSSm16M1ZpbEZnOFVxbUVkMm1WQkRqanZqcEdFbHF3c21NMnVMY1VsLXpJNVhNd0Rvb3ZnMGlPUmVtQ3lYeWZRVmhNMkljQUYwZWxRMDNRdDN2YTNDR2FqWUE4TFUtOEJNMzMwS01TWWxjY1U2TWc?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-10-29T07:00:00.0000000Z",
-      "lang": "fr",
-      "topic": "ligue1",
-      "isVideo": false,
-      "sourceId": "google_news_fr",
-      "sourceName": "Eurosport",
-      "sourceNameAr": "Eurosport",
-      "sourceDomain": "news.google.com",
-      "sourceCategory": "tunisian_press",
-      "score": 66,
-      "verification": "rumor",
-      "corroborationCount": 0,
-      "scoreBreakdown": {
-        "baseScore": 78,
-        "corroborationBonus": 0,
-        "freshnessDelta": -12,
-        "rumorPenalty": 0
-      }
-    },
-    {
-      "id": "ae56149f5aad",
-      "title": "Zamalek SC contre Club Africain - score en direct, compositions probables et statistiques H2H",
-      "summary": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44SGs0TmhUeURKUmdyTVZ3ME1WalRMQ1R3WXhJeU41elNZODNvZU9yMkxrcDhYcUY4N1o2X3hFbFRLeThXV05DeDhvbC1XLTNlMjdxWG9jRlVSV04tbEgtcUk1SWh0QlFDejEwREI4QUgxbFVvb09zUw?oc=5",
-      "thumbnail": "",
-      "publishedAt": "2026-10-28T23:20:09.0000000Z",
-      "lang": "fr",
-      "topic": "caf",
-      "isVideo": false,
-      "sourceId": "google_news_fr",
-      "sourceName": "FotMob",
-      "sourceNameAr": "FotMob",
-      "sourceDomain": "news.google.com",
-      "sourceCategory": "tunisian_press",
-      "score": 66,
-      "verification": "rumor",
-      "corroborationCount": 0,
-      "scoreBreakdown": {
-        "baseScore": 78,
-        "corroborationBonus": 0,
         "freshnessDelta": -12,
         "rumorPenalty": 0
       }
