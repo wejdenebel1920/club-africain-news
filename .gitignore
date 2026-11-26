@@ -1,0 +1,9 @@
+# Sessions administratives actives (ne pas pousser)
+data/sessions.json
+
+# Fichiers temporaires et logs
+*.log
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

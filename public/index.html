@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Club Africain News — Actualités Football | أخبار النادي الإفريقي</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Breaking / Flash Info Ticker -->
+  <div id="breaking-bar" class="breaking-bar hidden">
+    <div class="container breaking-inner">
+      <span class="breaking-pill">
+        <span class="pulse-dot"></span>
+        <span data-i18n="breakingLabel">FLASH INFO</span>
+      </span>
+      <div id="breaking-text" class="breaking-text"></div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="/" class="brand">
+        <div class="crest" aria-hidden="true">
+          <span>CA</span>
+        </div>
+        <div>
+          <h1 id="site-title">Club Africain News</h1>
+          <p id="site-subtitle" class="subtitle">Le portail d'actualités football des supporters clubistes</p>
+        </div>
+      </a>
+
+      <div class="topbar-actions">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button id="btn-lang-fr" class="lang-btn active" type="button">FR</button>
+          <button id="btn-lang-ar" class="lang-btn" type="button">عربي</button>
+        </div>
+        <a href="/admin" class="admin-entry-btn" data-i18n="adminLink">Administration</a>
+      </div>
+    </div>
+
+    <nav class="subnav" aria-label="Rubriques">
+      <div class="container subnav-inner" id="topic-nav">
+        <button class="nav-pill active" data-topic="all" data-i18n="topicAll">À la Une</button>
+        <button class="nav-pill" data-topic="caf" data-i18n="topicCaf">Ligue des Champions CAF</button>
+        <button class="nav-pill" data-topic="ligue1" data-i18n="topicLigue1">Ligue 1 &amp; Coupes</button>
+        <button class="nav-pill" data-topic="squad" data-i18n="topicSquad">Effectif &amp; Infirmerie</button>
+        <button class="nav-pill" data-topic="mercato" data-i18n="topicMercato">Mercato</button>
+        <button class="nav-pill" data-topic="official" data-i18n="topicOfficial">Officiel &amp; Vidéos</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container main-content">
+    <!-- Match Center Banner -->
+    <section id="match-banner" class="match-banner hidden">
+      <div class="match-left">
+        <span id="match-badge" class="match-badge"></span>
+        <div class="match-info">
+          <strong id="match-title"></strong>
+          <span id="match-meta"></span>
+        </div>
+      </div>
+      <a id="match-ticket-btn" class="ticket-btn hidden" href="#" target="_blank" rel="noopener" data-i18n="ticketCta">Billetterie officielle ↗</a>
+    </section>
+
+    <!-- Featured / À la Une Hero Section -->
+    <section id="featured-section" class="featured-section hidden">
+      <div class="section-heading">
+        <h2 data-i18n="featuredTitle">À la Une</h2>
+        <span id="last-updated-label" class="updated-meta"></span>
+      </div>
+      <div id="featured-grid" class="featured-grid"></div>
+    </section>
+
+    <!-- Search & Filter Bar -->
+    <section class="filters-panel">
+      <div class="search-row">
+        <input id="search-input" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="Rechercher un joueur, un match, une actu..." />
+        <select id="article-lang-filter" aria-label="Langue des articles">
+          <option value="all" data-i18n="langAll">Toutes les langues (FR + AR)</option>
+          <option value="fr" data-i18n="langFrOnly">Français uniquement</option>
+          <option value="ar" data-i18n="langArOnly">العربية فقط</option>
+        </select>
+        <select id="sort-filter" aria-label="Tri">
+          <option value="featured" data-i18n="sortFeatured">Pertinence &amp; À la Une</option>
+          <option value="date" data-i18n="sortDate">Plus récents d'abord</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Main Content + Sidebar -->
+    <section class="content-layout">
+      <div class="feed-column">
+        <div class="section-heading">
+          <h2 id="feed-heading" data-i18n="latestNewsTitle">Toute l'actualité football</h2>
+          <span id="results-count" class="results-count"></span>
+        </div>
+        <div id="articles-list" class="articles-list"></div>
+        <div id="load-more-wrap" class="load-more-wrap hidden">
+          <button id="btn-load-more" class="load-more-btn" type="button" data-i18n="loadMore">Charger plus d'articles</button>
+        </div>
+      </div>
+
+      <aside class="sidebar-column">
+        <div class="side-card">
+          <h2 data-i18n="videosTitle">Vidéos Officielles CA</h2>
+          <p class="side-desc" data-i18n="videosDesc">Dernières publications de la chaîne officielle du club.</p>
+          <div id="videos-list" class="videos-list"></div>
+        </div>
+
+        <div class="side-card">
+          <h2 data-i18n="officialHubTitle">Canaux Officiels &amp; Stats</h2>
+          <p class="side-desc" data-i18n="officialHubDesc">Accès direct aux pages officielles du Club Africain et aux résultats en direct.</p>
+          <div id="official-links-list" class="official-links"></div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <!-- Reader Modal for Editorial / Full-Text Articles -->
+  <div id="article-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <button id="modal-close" class="modal-close" type="button" aria-label="Fermer">✕</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span data-i18n="footerNote">Club Africain News — Portail d'actualités football (FR / عربي).</span>
+      <a href="/admin" data-i18n="adminFooterLink">Console d'administration</a>
+    </div>
+  </footer>
+
+  <!-- Static fallback for file:// opening, overridden by /api/public/news when served -->
+  <script src="../data/news.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

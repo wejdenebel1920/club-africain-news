@@ -1,0 +1,355 @@
+{
+  "project": "Club Africain News — Football V1",
+  "scoringFormula": {
+    "weights": {
+      "F": 0.30,
+      "R": 0.25,
+      "C": 0.20,
+      "D": 0.15,
+      "B": 0.10
+    },
+    "labels": {
+      "F": { "fr": "Fiabilité & Vérification", "ar": "الموثوقية والتحقق" },
+      "R": { "fr": "Réactivité & Fraîcheur", "ar": "السرعة والآنية" },
+      "C": { "fr": "Couverture Football CA", "ar": "تغطية كرة القدم بالنادي" },
+      "D": { "fr": "Richesse des données", "ar": "ثراء المعطيات" },
+      "B": { "fr": "Propreté éditoriale", "ar": "جودة التحرير" }
+    }
+  },
+  "feeds": [
+    {
+      "id": "ca_youtube_official",
+      "type": "youtube_atom",
+      "lang": "ar",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEDXR5aarXwt-3kdKbpmASw",
+      "sourceId": "ca_youtube",
+      "filterRequired": false
+    },
+    {
+      "id": "mosaique_fr",
+      "type": "rss",
+      "lang": "fr",
+      "url": "https://www.mosaiquefm.net/fr/rss",
+      "sourceId": "mosaiquefm",
+      "filterRequired": true
+    },
+    {
+      "id": "mosaique_ar",
+      "type": "rss",
+      "lang": "ar",
+      "url": "https://www.mosaiquefm.net/ar/rss",
+      "sourceId": "mosaiquefm",
+      "filterRequired": true
+    },
+    {
+      "id": "kawarji_fr",
+      "type": "rss",
+      "lang": "fr",
+      "url": "https://kawarji.com/rss",
+      "sourceId": "kawarji",
+      "filterRequired": true
+    },
+    {
+      "id": "diwan_ar",
+      "type": "rss",
+      "lang": "ar",
+      "url": "https://diwanfm.net/feed",
+      "sourceId": "diwanfm",
+      "filterRequired": true
+    },
+    {
+      "id": "gnews_ca_fr",
+      "type": "google_news_rss",
+      "lang": "fr",
+      "url": "https://news.google.com/rss/search?q=%22Club+Africain%22+football+OR+Ligue+OR+CAF+OR+mercato&hl=fr&gl=TN&ceid=TN:fr",
+      "sourceId": "google_news_fr",
+      "filterRequired": true
+    },
+    {
+      "id": "gnews_ca_ar",
+      "type": "google_news_rss",
+      "lang": "ar",
+      "url": "https://news.google.com/rss/search?q=%22%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A%22&hl=ar&gl=TN&ceid=TN:ar",
+      "sourceId": "google_news_ar",
+      "filterRequired": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "ca_facebook",
+      "name": "Club Africain (Facebook Officiel)",
+      "nameAr": "الصفحة الرسمية للنادي الإفريقي (فيسبوك)",
+      "domain": "facebook.com/clubafricain.com.tn",
+      "url": "https://www.facebook.com/clubafricain.com.tn",
+      "category": "official",
+      "lang": "FR/AR",
+      "accessMode": "Lien / Embed officiel gratuit",
+      "accessModeAr": "رابط / تضمين رسمي مجاني",
+      "F": 100, "R": 95, "C": 100, "D": 80, "B": 98, "baseScore": 96
+    },
+    {
+      "id": "ca_youtube",
+      "name": "Club Africain (YouTube Officiel)",
+      "nameAr": "القناة الرسمية للنادي الإفريقي (يوتيوب)",
+      "domain": "youtube.com/@ClubAfricainOfficielle",
+      "url": "https://www.youtube.com/@ClubAfricainOfficielle",
+      "category": "official",
+      "lang": "AR/FR",
+      "accessMode": "Flux Atom YouTube gratuit",
+      "accessModeAr": "خلاصة يوتيوب مجانية (Atom)",
+      "F": 100, "R": 85, "C": 100, "D": 90, "B": 100, "baseScore": 95
+    },
+    {
+      "id": "ca_instagram",
+      "name": "Club Africain (Instagram Officiel)",
+      "nameAr": "الحساب الرسمي للنادي الإفريقي (إنستغرام)",
+      "domain": "instagram.com/clubafricain__officiel",
+      "url": "https://www.instagram.com/clubafricain__officiel",
+      "category": "official",
+      "lang": "FR/AR",
+      "accessMode": "Lien / Embed officiel gratuit",
+      "accessModeAr": "رابط / تضمين رسمي مجاني",
+      "F": 100, "R": 92, "C": 100, "D": 70, "B": 98, "baseScore": 93
+    },
+    {
+      "id": "ca_portal",
+      "name": "Portail Billetterie Club Africain",
+      "nameAr": "بوابة التذاكر الرسمية للنادي الإفريقي",
+      "domain": "passeportenligne.clubafricain.com",
+      "url": "https://passeportenligne.clubafricain.com",
+      "category": "official",
+      "lang": "FR/AR",
+      "accessMode": "Portail officiel",
+      "accessModeAr": "بوابة رسمية",
+      "F": 100, "R": 80, "C": 100, "D": 85, "B": 100, "baseScore": 93
+    },
+    {
+      "id": "sofascore",
+      "name": "Sofascore / Flashscore",
+      "nameAr": "سوفاسكور / فلاش سكور",
+      "domain": "sofascore.com",
+      "url": "https://www.sofascore.com",
+      "category": "international",
+      "lang": "FR/AR/EN",
+      "accessMode": "Lien stats & scores en direct",
+      "accessModeAr": "إحصائيات ونتائج مباشرة",
+      "F": 96, "R": 98, "C": 70, "D": 100, "B": 95, "baseScore": 92
+    },
+    {
+      "id": "cafonline",
+      "name": "CAF Online",
+      "nameAr": "موقع الاتحاد الإفريقي لكرة القدم (CAF)",
+      "domain": "cafonline.com",
+      "url": "https://www.cafonline.com",
+      "category": "official",
+      "lang": "FR/AR/EN",
+      "accessMode": "Indexation presse / Google News RSS",
+      "accessModeAr": "تغطية قارية مجانية",
+      "F": 99, "R": 88, "C": 70, "D": 95, "B": 98, "baseScore": 90
+    },
+    {
+      "id": "mosaiquefm",
+      "name": "Mosaïque FM",
+      "nameAr": "موزاييك أف أم",
+      "domain": "mosaiquefm.net",
+      "url": "https://www.mosaiquefm.net",
+      "category": "tunisian_sports",
+      "lang": "FR/AR",
+      "accessMode": "RSS direct gratuit (FR + AR)",
+      "accessModeAr": "خلاصة RSS مباشرة ومجانية (فرنسي + عربي)",
+      "F": 88, "R": 95, "C": 90, "D": 80, "B": 85, "baseScore": 89
+    },
+    {
+      "id": "kawarji",
+      "name": "Kawarji",
+      "nameAr": "كوارجي",
+      "domain": "kawarji.com",
+      "url": "https://kawarji.com",
+      "category": "tunisian_sports",
+      "lang": "FR",
+      "accessMode": "RSS direct gratuit",
+      "accessModeAr": "خلاصة RSS مباشرة ومجانية",
+      "F": 86, "R": 90, "C": 90, "D": 82, "B": 88, "baseScore": 87
+    },
+    {
+      "id": "transfermarkt",
+      "name": "Transfermarkt",
+      "nameAr": "ترانسفير ماركت",
+      "domain": "transfermarkt.com",
+      "url": "https://www.transfermarkt.com",
+      "category": "international",
+      "lang": "FR/EN",
+      "accessMode": "Référence mercato & valeurs",
+      "accessModeAr": "مرجع الانتقالات والقيمة التسويقية",
+      "F": 94, "R": 75, "C": 72, "D": 100, "B": 96, "baseScore": 87
+    },
+    {
+      "id": "diwanfm",
+      "name": "Diwan FM",
+      "nameAr": "ديوان أف أم",
+      "domain": "diwanfm.net",
+      "url": "https://www.diwanfm.net",
+      "category": "tunisian_sports",
+      "lang": "AR/FR",
+      "accessMode": "Agrégation Google News RSS gratuite",
+      "accessModeAr": "تجميع مجاني عبر أخبار جوجل",
+      "F": 84, "R": 90, "C": 85, "D": 78, "B": 84, "baseScore": 85
+    },
+    {
+      "id": "beinsports",
+      "name": "beIN Sports",
+      "nameAr": "بي إن سبورتس",
+      "domain": "beinsports.com",
+      "url": "https://www.beinsports.com",
+      "category": "international",
+      "lang": "AR/FR",
+      "accessMode": "Agrégation Google News RSS gratuite",
+      "accessModeAr": "تجميع مجاني عبر أخبار جوجل",
+      "F": 92, "R": 85, "C": 68, "D": 85, "B": 94, "baseScore": 85
+    },
+    {
+      "id": "winwin",
+      "name": "Winwin / Kooora",
+      "nameAr": "وين وين / كووورة",
+      "domain": "winwin.com",
+      "url": "https://www.winwin.com",
+      "category": "international",
+      "lang": "AR",
+      "accessMode": "Agrégation Google News RSS gratuite",
+      "accessModeAr": "تجميع مجاني عبر أخبار جوجل",
+      "F": 84, "R": 90, "C": 78, "D": 88, "B": 82, "baseScore": 85
+    },
+    {
+      "id": "lapresse",
+      "name": "La Presse de Tunisie",
+      "nameAr": "لا بريس التونسية",
+      "domain": "lapresse.tn",
+      "url": "https://lapresse.tn",
+      "category": "tunisian_press",
+      "lang": "FR",
+      "accessMode": "Agrégation Google News RSS gratuite",
+      "accessModeAr": "تجميع مجاني عبر أخبار جوجل",
+      "F": 88, "R": 78, "C": 80, "D": 82, "B": 92, "baseScore": 84
+    },
+    {
+      "id": "foot24",
+      "name": "Foot24",
+      "nameAr": "فوت 24",
+      "domain": "foot24.tn",
+      "url": "https://foot24.tn",
+      "category": "tunisian_sports",
+      "lang": "FR/AR",
+      "accessMode": "Agrégation Google News RSS gratuite",
+      "accessModeAr": "تجميع مجاني عبر أخبار جوجل",
+      "F": 80, "R": 92, "C": 88, "D": 78, "B": 76, "baseScore": 83
+    },
+    {
+      "id": "jawharafm",
+      "name": "Jawhara FM",
+      "nameAr": "جوهرة أف أم",
+      "domain": "jawharafm.net",
+      "url": "https://www.jawharafm.net",
+      "category": "tunisian_sports",
+      "lang": "FR/AR",
+      "accessMode": "Agrégation Google News RSS gratuite",
+      "accessModeAr": "تجميع مجاني عبر أخبار جوجل",
+      "F": 83, "R": 86, "C": 78, "D": 75, "B": 85, "baseScore": 82
+    },
+    {
+      "id": "footballtunisien",
+      "name": "FootballTunisien",
+      "nameAr": "فوتبول تونسيان",
+      "domain": "footballtunisien.com",
+      "url": "https://footballtunisien.com",
+      "category": "tunisian_sports",
+      "lang": "FR",
+      "accessMode": "Agrégation Google News RSS gratuite",
+      "accessModeAr": "تجميع مجاني عبر أخبار جوجل",
+      "F": 80, "R": 85, "C": 85, "D": 76, "B": 80, "baseScore": 82
+    },
+    {
+      "id": "lequotidien",
+      "name": "Le Quotidien",
+      "nameAr": "صحيفة لو كوتيديان",
+      "domain": "lequotidien.com.tn",
+      "url": "https://lequotidien.com.tn",
+      "category": "tunisian_press",
+      "lang": "FR",
+      "accessMode": "Agrégation Google News RSS gratuite",
+      "accessModeAr": "تجميع مجاني عبر أخبار جوجل",
+      "F": 85, "R": 76, "C": 76, "D": 78, "B": 90, "baseScore": 81
+    },
+    {
+      "id": "tunisienumerique",
+      "name": "Tunisie Numérique",
+      "nameAr": "تونس الرقمية",
+      "domain": "tunisienumerique.com",
+      "url": "https://www.tunisienumerique.com",
+      "category": "tunisian_press",
+      "lang": "FR/AR",
+      "accessMode": "Agrégation Google News RSS gratuite",
+      "accessModeAr": "تجميع مجاني عبر أخبار جوجل",
+      "F": 78, "R": 86, "C": 82, "D": 75, "B": 76, "baseScore": 80
+    },
+    {
+      "id": "allafrica",
+      "name": "AllAfrica / YSScores",
+      "nameAr": "أول أفريكا / واي إس سكورز",
+      "domain": "allafrica.com",
+      "url": "https://allafrica.com",
+      "category": "international",
+      "lang": "EN/FR",
+      "accessMode": "Agrégation Google News RSS gratuite",
+      "accessModeAr": "تجميع مجاني عبر أخبار جوجل",
+      "F": 80, "R": 82, "C": 72, "D": 84, "B": 82, "baseScore": 80
+    },
+    {
+      "id": "nessma_tuniscope",
+      "name": "Nessma / Tuniscope / Gnet",
+      "nameAr": "نسمة / تونيسكوب / جي نت",
+      "domain": "tuniscope.com",
+      "url": "https://www.tuniscope.com",
+      "category": "tunisian_press",
+      "lang": "FR/AR",
+      "accessMode": "Agrégation Google News RSS gratuite",
+      "accessModeAr": "تجميع مجاني عبر أخبار جوجل",
+      "F": 76, "R": 82, "C": 74, "D": 70, "B": 74, "baseScore": 76
+    },
+    {
+      "id": "google_news_fr",
+      "name": "Presse Web (Agrégée FR)",
+      "nameAr": "الصحافة الرقمية (فرنسي)",
+      "domain": "news.google.com",
+      "url": "https://news.google.com",
+      "category": "tunisian_press",
+      "lang": "FR",
+      "accessMode": "Google News RSS gratuit",
+      "accessModeAr": "خلاصة أخبار جوجل المجانية",
+      "F": 75, "R": 88, "C": 75, "D": 72, "B": 78, "baseScore": 78
+    },
+    {
+      "id": "google_news_ar",
+      "name": "Presse Web (Agrégée AR)",
+      "nameAr": "الصحافة الرقمية (عربي)",
+      "domain": "news.google.com",
+      "url": "https://news.google.com",
+      "category": "tunisian_press",
+      "lang": "AR",
+      "accessMode": "Google News RSS gratuit",
+      "accessModeAr": "خلاصة أخبار جوجل المجانية",
+      "F": 75, "R": 88, "C": 75, "D": 72, "B": 78, "baseScore": 78
+    },
+    {
+      "id": "x_twitter",
+      "name": "X / Twitter (Veille CA)",
+      "nameAr": "إكس / تويتر (متابعة الإفريقي)",
+      "domain": "x.com",
+      "url": "https://x.com/search?q=Club%20Africain",
+      "category": "social",
+      "lang": "AR/FR",
+      "accessMode": "Lien recherche temps réel",
+      "accessModeAr": "رابط البحث الفوري",
+      "F": 58, "R": 96, "C": 90, "D": 55, "B": 60, "baseScore": 72
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Administration — Club Africain News</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <!-- Login View -->
+  <div id="login-screen" class="login-screen">
+    <form id="login-form" class="login-card">
+      <div class="login-brand">
+        <div class="crest">CA</div>
+        <div>
+          <h1 data-i18n="loginTitle">Console d'administration</h1>
+          <p data-i18n="loginSub">Club Africain News — Rédaction &amp; Modération</p>
+        </div>
+      </div>
+
+      <label class="field-label" for="login-password" data-i18n="passwordLabel">Mot de passe administrateur</label>
+      <input id="login-password" type="password" autocomplete="current-password" required placeholder="••••••••" />
+      <p class="login-hint" data-i18n="loginHint">Mot de passe par défaut : <code>ca1920</code> (modifiable dans Paramètres).</p>
+      <div id="login-error" class="alert alert-error hidden"></div>
+      <button type="submit" class="btn btn-primary btn-full" data-i18n="loginBtn">Se connecter</button>
+      <a href="/" class="back-public-link" data-i18n="backToPublic">← Retour au site public</a>
+    </form>
+  </div>
+
+  <!-- Admin App Shell -->
+  <div id="admin-shell" class="admin-shell hidden">
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <div class="sidebar-brand">
+          <div class="crest">CA</div>
+          <div>
+            <strong>CA Admin</strong>
+            <small data-i18n="adminConsole">Console Rédaction</small>
+          </div>
+        </div>
+
+        <nav class="side-nav" aria-label="Menu administration">
+          <button class="side-nav-btn active" data-tab="dashboard" data-i18n="navDashboard">Tableau de bord</button>
+          <button class="side-nav-btn" data-tab="articles" data-i18n="navArticles">Articles &amp; Modération</button>
+          <button class="side-nav-btn" data-tab="banners" data-i18n="navBanners">Match &amp; Flash Info</button>
+          <button class="side-nav-btn" data-tab="sources" data-i18n="navSources">Sources &amp; Flux RSS</button>
+          <button class="side-nav-btn" data-tab="settings" data-i18n="navSettings">Paramètres</button>
+        </nav>
+      </div>
+
+      <div class="sidebar-bottom">
+        <div class="lang-switch">
+          <button id="admin-lang-fr" class="lang-btn active" type="button">FR</button>
+          <button id="admin-lang-ar" class="lang-btn" type="button">عربي</button>
+        </div>
+        <a href="/" target="_blank" rel="noopener" class="btn btn-ghost btn-full" data-i18n="viewPublicSite">Voir le site public ↗</a>
+        <button id="btn-logout" class="btn btn-outline-light btn-full" type="button" data-i18n="logoutBtn">Déconnexion</button>
+      </div>
+    </aside>
+
+    <div class="workspace">
+      <header class="workspace-header">
+        <div>
+          <h2 id="page-title" data-i18n="navDashboard">Tableau de bord</h2>
+          <span id="last-collect-info" class="muted-text"></span>
+        </div>
+        <div class="header-actions">
+          <button id="btn-new-article-top" class="btn btn-dark" type="button" data-i18n="newArticleBtn">+ Nouvel article</button>
+          <button id="btn-collect-now" class="btn btn-primary" type="button" data-i18n="collectNowBtn">↻ Lancer la collecte RSS</button>
+        </div>
+      </header>
+
+      <div id="toast" class="toast hidden"></div>
+
+      <!-- Tab: Dashboard -->
+      <section id="tab-dashboard" class="admin-tab active">
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <span data-i18n="kpiTotal">Total articles</span>
+            <strong id="kpi-total">0</strong>
+          </div>
+          <div class="kpi-card kpi-green">
+            <span data-i18n="kpiPublished">Publiés (Public)</span>
+            <strong id="kpi-published">0</strong>
+          </div>
+          <div class="kpi-card kpi-amber">
+            <span data-i18n="kpiHidden">Masqués / Brouillons</span>
+            <strong id="kpi-hidden">0</strong>
+          </div>
+          <div class="kpi-card kpi-red">
+            <span data-i18n="kpiFeatured">À la Une (Épinglés)</span>
+            <strong id="kpi-featured">0</strong>
+          </div>
+          <div class="kpi-card">
+            <span data-i18n="kpiManual">Articles rédaction</span>
+            <strong id="kpi-manual">0</strong>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h3 data-i18n="feedsStatusTitle">État des flux gratuits (RSS / YouTube Atom)</h3>
+          </div>
+          <div id="dashboard-feeds-grid" class="feeds-grid"></div>
+        </div>
+      </section>
+
+      <!-- Tab: Articles & Moderation -->
+      <section id="tab-articles" class="admin-tab">
+        <div class="panel">
+          <div class="articles-toolbar">
+            <input id="adm-search" type="search" data-i18n-placeholder="admSearchPh" placeholder="Rechercher un article, une source..." />
+            <select id="adm-status-filter">
+              <option value="all" data-i18n="statusAll">Tous les statuts</option>
+              <option value="published" data-i18n="statusPublished">Publiés uniquement</option>
+              <option value="hidden" data-i18n="statusHidden">Masqués uniquement</option>
+              <option value="featured" data-i18n="statusFeatured">À la Une</option>
+              <option value="manual" data-i18n="statusManual">Rédaction manuelle</option>
+              <option value="rumor" data-i18n="statusRumor">Rumeurs</option>
+            </select>
+            <select id="adm-topic-filter">
+              <option value="all" data-i18n="topicAll">Toutes rubriques</option>
+              <option value="caf">CAF CL</option>
+              <option value="ligue1">Ligue 1 &amp; Coupes</option>
+              <option value="squad">Effectif &amp; Infirmerie</option>
+              <option value="mercato">Mercato</option>
+              <option value="official">Officiel &amp; Vidéos</option>
+            </select>
+            <select id="adm-lang-filter">
+              <option value="all">FR + AR</option>
+              <option value="fr">FR</option>
+              <option value="ar">AR</option>
+            </select>
+          </div>
+
+          <div class="bulk-bar">
+            <span id="adm-count-label" class="muted-text"></span>
+            <div class="bulk-actions">
+              <button type="button" class="btn btn-sm btn-outline" data-bulk="hide_rumors" data-i18n="bulkHideRumors">Masquer les rumeurs</button>
+              <button type="button" class="btn btn-sm btn-outline" data-bulk="publish_verified" data-i18n="bulkPublishVerified">Publier officiels &amp; vérifiés</button>
+              <button type="button" class="btn btn-sm btn-outline" data-bulk="publish_all" data-i18n="bulkPublishAll">Tout publier</button>
+            </div>
+          </div>
+
+          <div id="adm-articles-list" class="adm-articles-list"></div>
+        </div>
+      </section>
+
+      <!-- Tab: Match & Flash Info -->
+      <section id="tab-banners" class="admin-tab">
+        <form id="banners-form" class="panel form-grid">
+          <h3 data-i18n="breakingSectionTitle">Bandeau Flash Info (Breaking News)</h3>
+          <label class="checkbox-row">
+            <input type="checkbox" id="cfg-breaking-enabled" />
+            <span data-i18n="enableBreaking">Afficher le bandeau Flash Info sur le site public</span>
+          </label>
+          <div class="two-cols">
+            <div>
+              <label class="field-label" data-i18n="breakingFrLabel">Texte Flash Info (FR)</label>
+              <input type="text" id="cfg-breaking-fr" />
+            </div>
+            <div>
+              <label class="field-label" data-i18n="breakingArLabel">Texte Flash Info (AR)</label>
+              <input type="text" id="cfg-breaking-ar" dir="rtl" />
+            </div>
+          </div>
+          <div>
+            <label class="field-label" data-i18n="breakingUrlLabel">Lien optionnel (URL)</label>
+            <input type="url" id="cfg-breaking-url" placeholder="https://..." />
+          </div>
+
+          <hr class="sep" />
+
+          <h3 data-i18n="matchSectionTitle">Bannière Prochain Match</h3>
+          <label class="checkbox-row">
+            <input type="checkbox" id="cfg-match-enabled" />
+            <span data-i18n="enableMatch">Afficher la bannière Prochain Match sur le site public</span>
+          </label>
+          <div class="two-cols">
+            <div>
+              <label class="field-label">Badge compétition (FR)</label>
+              <input type="text" id="cfg-match-badge-fr" />
+            </div>
+            <div>
+              <label class="field-label">Badge compétition (AR)</label>
+              <input type="text" id="cfg-match-badge-ar" dir="rtl" />
+            </div>
+          </div>
+          <div class="two-cols">
+            <div>
+              <label class="field-label">Affiche du match (FR)</label>
+              <input type="text" id="cfg-match-title-fr" />
+            </div>
+            <div>
+              <label class="field-label">Affiche du match (AR)</label>
+              <input type="text" id="cfg-match-title-ar" dir="rtl" />
+            </div>
+          </div>
+          <div class="two-cols">
+            <div>
+              <label class="field-label">Date, stade &amp; infos (FR)</label>
+              <input type="text" id="cfg-match-meta-fr" />
+            </div>
+            <div>
+              <label class="field-label">Date, stade &amp; infos (AR)</label>
+              <input type="text" id="cfg-match-meta-ar" dir="rtl" />
+            </div>
+          </div>
+          <div>
+            <label class="field-label" data-i18n="ticketUrlLabel">Lien Billetterie (URL)</label>
+            <input type="url" id="cfg-match-ticket" />
+          </div>
+
+          <div>
+            <button type="submit" class="btn btn-primary" data-i18n="saveBannersBtn">Enregistrer les bandeaux</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Tab: Sources & Feeds -->
+      <section id="tab-sources" class="admin-tab">
+        <div class="panel" style="margin-bottom: 18px;">
+          <h3 data-i18n="feedsManageTitle">Gestion des flux RSS / YouTube Atom</h3>
+          <div id="adm-feeds-list" class="adm-feeds-list"></div>
+
+          <form id="add-feed-form" class="add-feed-form">
+            <h4 data-i18n="addFeedTitle">Ajouter un nouveau flux</h4>
+            <div class="feed-form-grid">
+              <input id="new-feed-id" type="text" placeholder="ID (ex: radio_ca)" required />
+              <select id="new-feed-type">
+                <option value="rss">RSS</option>
+                <option value="google_news_rss">Google News RSS</option>
+                <option value="youtube_atom">YouTube Atom</option>
+              </select>
+              <select id="new-feed-lang">
+                <option value="fr">FR</option>
+                <option value="ar">AR</option>
+              </select>
+              <select id="new-feed-source"></select>
+              <input id="new-feed-url" type="url" placeholder="https://..." required />
+              <button type="submit" class="btn btn-primary" data-i18n="addFeedBtn">+ Ajouter</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="panel">
+          <h3 data-i18n="sourcesScoreTitle">Référentiel des Sources &amp; Barème (/100)</h3>
+          <p class="muted-text" style="margin-bottom: 12px;">Score = 30% F + 25% R + 20% C + 15% D + 10% B</p>
+          <div class="table-wrap">
+            <table class="adm-table">
+              <thead>
+                <tr>
+                  <th>Source</th>
+                  <th>Catégorie</th>
+                  <th>F</th>
+                  <th>R</th>
+                  <th>C</th>
+                  <th>D</th>
+                  <th>B</th>
+                  <th>Base</th>
+                  <th>Articles</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="adm-sources-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab: Settings -->
+      <section id="tab-settings" class="admin-tab">
+        <form id="settings-form" class="panel form-grid">
+          <h3 data-i18n="brandingTitle">Identité du site public</h3>
+          <div class="two-cols">
+            <div>
+              <label class="field-label">Titre du site (FR)</label>
+              <input type="text" id="set-title-fr" />
+            </div>
+            <div>
+              <label class="field-label">Titre du site (AR)</label>
+              <input type="text" id="set-title-ar" dir="rtl" />
+            </div>
+          </div>
+          <div class="two-cols">
+            <div>
+              <label class="field-label">Sous-titre (FR)</label>
+              <input type="text" id="set-sub-fr" />
+            </div>
+            <div>
+              <label class="field-label">Sous-titre (AR)</label>
+              <input type="text" id="set-sub-ar" dir="rtl" />
+            </div>
+          </div>
+
+          <hr class="sep" />
+
+          <h3 data-i18n="moderationTitle">Règles d'auto-modération lors de la collecte</h3>
+          <div class="two-cols">
+            <div>
+              <label class="field-label" data-i18n="minScoreLabel">Score minimum pour publication automatique (0 - 100)</label>
+              <input type="number" id="set-min-score" min="0" max="100" />
+            </div>
+            <div style="display:flex;align-items:flex-end;">
+              <label class="checkbox-row">
+                <input type="checkbox" id="set-hide-rumors" />
+                <span data-i18n="hideRumorsDefault">Masquer automatiquement les rumeurs isolées</span>
+              </label>
+            </div>
+          </div>
+
+          <hr class="sep" />
+
+          <h3 data-i18n="securityTitle">Sécurité de la console</h3>
+          <div>
+            <label class="field-label" data-i18n="newPasswordLabel">Nouveau mot de passe administrateur (laisser vide pour ne pas changer)</label>
+            <input type="password" id="set-new-password" autocomplete="new-password" placeholder="••••••••" />
+          </div>
+
+          <div>
+            <button type="submit" class="btn btn-primary" data-i18n="saveSettingsBtn">Enregistrer les paramètres</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </div>
+
+  <!-- Modal: Create / Edit Article -->
+  <div id="article-editor-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true">
+    <form id="article-editor-form" class="modal-card">
+      <div class="modal-head">
+        <h3 id="editor-modal-title">Nouvel article</h3>
+        <button type="button" id="editor-close" class="modal-close">✕</button>
+      </div>
+      <input type="hidden" id="edit-art-id" />
+
+      <div class="form-grid">
+        <div>
+          <label class="field-label">Titre *</label>
+          <input type="text" id="edit-art-title" required />
+        </div>
+        <div>
+          <label class="field-label">Chapeau / Résumé</label>
+          <textarea id="edit-art-summary" rows="2"></textarea>
+        </div>
+        <div>
+          <label class="field-label">Contenu complet de l'article (affiché sur le site public)</label>
+          <textarea id="edit-art-body" rows="5"></textarea>
+        </div>
+        <div class="two-cols">
+          <div>
+            <label class="field-label">Rubrique</label>
+            <select id="edit-art-topic">
+              <option value="official">Officiel &amp; Vidéos</option>
+              <option value="caf">Ligue des Champions CAF</option>
+              <option value="ligue1">Ligue 1 &amp; Coupes</option>
+              <option value="squad">Effectif &amp; Infirmerie</option>
+              <option value="mercato">Mercato</option>
+            </select>
+          </div>
+          <div>
+            <label class="field-label">Langue</label>
+            <select id="edit-art-lang">
+              <option value="fr">Français (FR)</option>
+              <option value="ar">Arabe (AR)</option>
+            </select>
+          </div>
+        </div>
+        <div class="two-cols">
+          <div>
+            <label class="field-label">Niveau de vérification</label>
+            <select id="edit-art-verif">
+              <option value="official">Officiel</option>
+              <option value="verified">Vérifié</option>
+              <option value="press">Presse</option>
+              <option value="rumor">À confirmer / Rumeur</option>
+            </select>
+          </div>
+          <div>
+            <label class="field-label">Statut</label>
+            <select id="edit-art-status">
+              <option value="published">Publié (visible sur le site)</option>
+              <option value="hidden">Masqué / Brouillon</option>
+            </select>
+          </div>
+        </div>
+        <div class="two-cols">
+          <div>
+            <label class="field-label">URL externe (optionnel)</label>
+            <input type="url" id="edit-art-url" placeholder="https://..." />
+          </div>
+          <div>
+            <label class="field-label">Image / Miniature (URL optionnelle)</label>
+            <input type="url" id="edit-art-thumb" placeholder="https://..." />
+          </div>
+        </div>
+        <label class="checkbox-row">
+          <input type="checkbox" id="edit-art-featured" />
+          <span>Mettre à la Une (épinglé en haut du site public)</span>
+        </label>
+        <div class="modal-actions">
+          <button type="button" id="editor-cancel" class="btn btn-outline">Annuler</button>
+          <button type="submit" class="btn btn-primary">Enregistrer</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Modal: Edit Source Weights -->
+  <div id="source-editor-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true">
+    <form id="source-editor-form" class="modal-card modal-sm">
+      <div class="modal-head">
+        <h3 id="source-modal-title">Modifier la source</h3>
+        <button type="button" id="source-close" class="modal-close">✕</button>
+      </div>
+      <input type="hidden" id="edit-src-id" />
+      <div class="form-grid">
+        <div>
+          <label class="field-label">Nom (FR)</label>
+          <input type="text" id="edit-src-name" required />
+        </div>
+        <div>
+          <label class="field-label">Nom (AR)</label>
+          <input type="text" id="edit-src-name-ar" dir="rtl" />
+        </div>
+        <div class="scores-five">
+          <div><label class="field-label">F (30%)</label><input type="number" id="edit-src-f" min="0" max="100" required /></div>
+          <div><label class="field-label">R (25%)</label><input type="number" id="edit-src-r" min="0" max="100" required /></div>
+          <div><label class="field-label">C (20%)</label><input type="number" id="edit-src-c" min="0" max="100" required /></div>
+          <div><label class="field-label">D (15%)</label><input type="number" id="edit-src-d" min="0" max="100" required /></div>
+          <div><label class="field-label">B (10%)</label><input type="number" id="edit-src-b" min="0" max="100" required /></div>
+        </div>
+        <div class="modal-actions">
+          <button type="button" id="source-cancel" class="btn btn-outline">Annuler</button>
+          <button type="submit" class="btn btn-primary">Mettre à jour</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>

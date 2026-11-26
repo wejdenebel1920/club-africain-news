@@ -1,0 +1,25 @@
+{
+  "siteTitleFr": "Club Africain News",
+  "siteTitleAr": "أخبار النادي الإفريقي",
+  "siteSubtitleFr": "Le portail d'actualités football des supporters clubistes",
+  "siteSubtitleAr": "بوابة أخبار كرة القدم لجماهير النادي الإفريقي",
+  "breakingEnabled": true,
+  "breakingFr": "Ligue des Champions CAF : Le Club Africain prépare le déplacement face au Zamalek SC.",
+  "breakingAr": "دوري أبطال إفريقيا: النادي الإفريقي يواصل تحضيراته لمواجهة الزمالك المصري.",
+  "breakingUrl": "",
+  "matchBanner": {
+    "enabled": true,
+    "badgeFr": "À SUIVRE • CAF CHAMPIONS LEAGUE",
+    "badgeAr": "الموعد القادم • دوري أبطال إفريقيا",
+    "titleFr": "Zamalek SC vs Club Africain (Groupe B - J1)",
+    "titleAr": "الزمالك المصري × النادي الإفريقي (المجموعة الثانية - الجولة 1)",
+    "metaFr": "Samedi 28 nov. 2026 • Stade International du Caire • Supercoupe de Tunisie : 31 jan. 2027",
+    "metaAr": "السبت 28 نوفمبر 2026 • ستاد القاهرة الدولي • كأس السوبر التونسي: 31 جانفي 2027",
+    "ticketUrl": "https://passeportenligne.clubafricain.com"
+  },
+  "moderation": {
+    "autoPublishMinScore": 0,
+    "hideRumorsByDefault": false
+  },
+  "adminPasswordSha256": "600644261df2791f1a7bf0d83d32bc6d70e92cf58badb90a2de15a4697b85cda"
+}
