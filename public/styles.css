@@ -3,7 +3,7 @@
   --ca-red-dark: #960b22;
   --ca-red-soft: #fdecef;
   --bg: #12151c;
-  --surface: rgba(255, 255, 255, 0.94);
+  --surface: rgba(255, 255, 255, 0.90);
   --ink: #12151c;
   --muted: #5a6374;
   --border: #e3e6ed;
@@ -19,10 +19,14 @@
 
 * { box-sizing: border-box; }
 
+html {
+  background-color: var(--bg);
+}
+
 body {
   margin: 0;
   font-family: "Inter", "Cairo", system-ui, -apple-system, sans-serif;
-  background-color: var(--bg);
+  background: transparent;
   color: var(--ink);
   line-height: 1.55;
   position: relative;
@@ -33,14 +37,21 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  z-index: -1;
+  z-index: 0;
   background-image:
-    linear-gradient(180deg, rgba(12, 14, 20, 0.50) 0%, rgba(12, 14, 20, 0.68) 100%),
+    linear-gradient(180deg, rgba(12, 14, 20, 0.32) 0%, rgba(12, 14, 20, 0.52) 100%),
     url("assets/bg-tifo.jpg");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
   pointer-events: none;
+}
+
+.breaking-bar,
+.main-content,
+.footer {
+  position: relative;
+  z-index: 1;
 }
 
 html[dir="rtl"] body {
