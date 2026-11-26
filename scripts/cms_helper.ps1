@@ -41,7 +41,7 @@ function Convert-PropsToHashtable {
 
 function Get-SiteConfig {
     param([string]$ProjectRoot)
-    $path = Join-Path $ProjectRoot "config\site.json"
+    $path = [System.IO.Path]::Combine($ProjectRoot, "config", "site.json")
     $cfg = Read-Utf8Json -Path $path
     if ($null -eq $cfg) {
         $cfg = [PSCustomObject]@{
@@ -93,7 +93,7 @@ function Get-PublicSiteConfig {
 
 function Get-CmsData {
     param([string]$ProjectRoot)
-    $path = Join-Path $ProjectRoot "data\cms.json"
+    $path = [System.IO.Path]::Combine($ProjectRoot, "data", "cms.json")
     $cms = Read-Utf8Json -Path $path
     if ($null -eq $cms) {
         $cms = [PSCustomObject]@{
@@ -108,7 +108,7 @@ function Get-CmsData {
 
 function Save-CmsData {
     param([string]$ProjectRoot, $ManualList, $OverridesMap, $DeletedList)
-    $path = Join-Path $ProjectRoot "data\cms.json"
+    $path = [System.IO.Path]::Combine($ProjectRoot, "data", "cms.json")
     $overridesObj = New-Object PSObject
     foreach ($k in $OverridesMap.Keys) {
         Add-Member -InputObject $overridesObj -MemberType NoteProperty -Name $k -Value $OverridesMap[$k] -Force
@@ -124,7 +124,7 @@ function Save-CmsData {
 function Get-MergedArticles {
     param([string]$ProjectRoot)
     $site = Get-SiteConfig -ProjectRoot $ProjectRoot
-    $news = Read-Utf8Json -Path (Join-Path $ProjectRoot "data\news.json")
+    $news = Read-Utf8Json -Path ([System.IO.Path]::Combine($ProjectRoot, "data", "news.json"))
     $cms = Get-CmsData -ProjectRoot $ProjectRoot
 
     $deletedSet = @{}
@@ -234,8 +234,8 @@ function Get-MergedArticles {
 
 function Build-PublicPayload {
     param([string]$ProjectRoot)
-    $news = Read-Utf8Json -Path (Join-Path $ProjectRoot "data\news.json")
-    $sourcesCfg = Read-Utf8Json -Path (Join-Path $ProjectRoot "config\sources.json")
+    $news = Read-Utf8Json -Path ([System.IO.Path]::Combine($ProjectRoot, "data", "news.json"))
+    $sourcesCfg = Read-Utf8Json -Path ([System.IO.Path]::Combine($ProjectRoot, "config", "sources.json"))
     $publicSite = Get-PublicSiteConfig -ProjectRoot $ProjectRoot
     $allArticles = Get-MergedArticles -ProjectRoot $ProjectRoot
 
@@ -291,8 +291,8 @@ function Build-PublicPayload {
 
 function Build-AdminPayload {
     param([string]$ProjectRoot)
-    $news = Read-Utf8Json -Path (Join-Path $ProjectRoot "data\news.json")
-    $sourcesCfg = Read-Utf8Json -Path (Join-Path $ProjectRoot "config\sources.json")
+    $news = Read-Utf8Json -Path ([System.IO.Path]::Combine($ProjectRoot, "data", "news.json"))
+    $sourcesCfg = Read-Utf8Json -Path ([System.IO.Path]::Combine($ProjectRoot, "config", "sources.json"))
     $publicSite = Get-PublicSiteConfig -ProjectRoot $ProjectRoot
     $allArticles = @(Get-MergedArticles -ProjectRoot $ProjectRoot)
 
@@ -347,6 +347,15 @@ function Sync-PublicJsBundle {
     param([string]$ProjectRoot)
     $payload = Build-PublicPayload -ProjectRoot $ProjectRoot
     $json = ConvertTo-Json -InputObject $payload -Depth 10
-    $jsPath = Join-Path $ProjectRoot "data\news.js"
-    [System.IO.File]::WriteAllText($jsPath, "window.__CA_NEWS_DATA__ = " + $json + ";", $script:Utf8NoBom)
+    $jsContent = "window.__CA_NEWS_DATA__ = " + $json + ";"
+
+    $jsPath = [System.IO.Path]::Combine($ProjectRoot, "data", "news.js")
+    [System.IO.File]::WriteAllText($jsPath, $jsContent, $script:Utf8NoBom)
+
+    $pubDataDir = [System.IO.Path]::Combine($ProjectRoot, "public", "data")
+    if (-not (Test-Path $pubDataDir)) {
+        New-Item -ItemType Directory -Path $pubDataDir -Force | Out-Null
+    }
+    [System.IO.File]::WriteAllText([System.IO.Path]::Combine($pubDataDir, "news.js"), $jsContent, $script:Utf8NoBom)
+    [System.IO.File]::WriteAllText([System.IO.Path]::Combine($pubDataDir, "news.json"), $json, $script:Utf8NoBom)
 }

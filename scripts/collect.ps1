@@ -3,9 +3,11 @@
 )
 
 $ErrorActionPreference = "Stop"
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+if ($PSVersionTable.PSVersion.Major -lt 6) {
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+}
 
-$ConfigPath = Join-Path $ProjectRoot "config\sources.json"
+$ConfigPath = [System.IO.Path]::Combine($ProjectRoot, "config", "sources.json")
 $DataDir = Join-Path $ProjectRoot "data"
 if (-not (Test-Path $DataDir)) {
     New-Item -ItemType Directory -Path $DataDir -Force | Out-Null

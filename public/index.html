@@ -3,7 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#c8102e" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <title>Club Africain News — Actualités Football | أخبار النادي الإفريقي</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="icon.svg" />
+  <link rel="apple-touch-icon" href="icon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -24,7 +30,7 @@
   <!-- Header -->
   <header class="topbar">
     <div class="container topbar-inner">
-      <a href="/" class="brand">
+      <a href="./" class="brand">
         <div class="crest" aria-hidden="true">
           <span>CA</span>
         </div>
@@ -137,8 +143,8 @@
     </div>
   </footer>
 
-  <!-- Static fallback for file:// opening, overridden by /api/public/news when served -->
-  <script src="../data/news.js"></script>
+  <!-- Static bundle for file:// and static hosting (GitHub Pages / Cloudflare / Netlify), overridden by /api/public/news locally -->
+  <script src="data/news.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

@@ -433,12 +433,33 @@
     renderSidebar();
   }
 
+  function hideAdminLinksForStaticHosting() {
+    document.querySelectorAll(".admin-entry-btn, a[href='/admin']").forEach((el) => {
+      el.classList.add("hidden");
+    });
+  }
+
   async function tryLoadFromApi() {
-    if (window.location.protocol === "file:") return;
+    if (window.location.protocol === "file:") {
+      hideAdminLinksForStaticHosting();
+      return;
+    }
     try {
-      const res = await fetch("/api/public/news");
-      if (res.ok) {
+      const res = await fetch("/api/public/news", { cache: "no-store" });
+      if (res.ok && (res.headers.get("content-type") || "").includes("application/json")) {
         state.data = await res.json();
+        renderAll();
+        return;
+      }
+    } catch {
+      // Not running on local PowerShell server; fall back to static JSON bundle
+    }
+
+    hideAdminLinksForStaticHosting();
+    try {
+      const staticRes = await fetch(`data/news.json?t=${Date.now()}`, { cache: "no-store" });
+      if (staticRes.ok) {
+        state.data = await staticRes.json();
         renderAll();
       }
     } catch {
