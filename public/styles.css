@@ -152,6 +152,18 @@ html[dir="rtl"] body {
   color: #fff;
 }
 
+.crest-logo {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.70);
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.45);
+  flex-shrink: 0;
+  background: #fff;
+  padding: 3px;
+}
+
 .crest {
   width: 46px;
   height: 46px;
