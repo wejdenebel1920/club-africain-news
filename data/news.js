@@ -1,5 +1,5 @@
 window.__CA_NEWS_DATA__ = {
-  "generatedAt": "11/27/2026 23:18:04",
+  "generatedAt": "11/28/2026 00:12:50",
   "scope": "football-v1",
   "totalArticles": 120,
   "site": {
@@ -93,6 +93,27 @@ window.__CA_NEWS_DATA__ = {
     }
   ],
   "articles": [
+    {
+      "id": "332c0381328e",
+      "title": "\"ضرب نار\".. موعد مباراة الزمالك والإفريقي التونسي",
+      "summary": "",
+      "body": "",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5pdFZmRkFFRjlxQlFzSU4zUjBzTlJGT2ZFby00MFZuSkhPSERxTHc0VTJubmdLWEYtOFp6UEJxWEY2eEFIVFFaZ2JMd2Vjdw?oc=5",
+      "thumbnail": "",
+      "publishedAt": "11/27/2026 23:59:21",
+      "lang": "ar",
+      "topic": "caf",
+      "isVideo": false,
+      "sourceId": "google_news_ar",
+      "sourceName": "بوابة روز اليوسف",
+      "sourceNameAr": "بوابة روز اليوسف",
+      "sourceDomain": "news.google.com",
+      "sourceCategory": "tunisian_press",
+      "verification": "press",
+      "featured": false,
+      "isManual": false,
+      "score": 82
+    },
     {
       "id": "aa595e5107fc",
       "title": "5 غيابات تضرب الزمالك قبل مواجهة الإفريقي في دوري أبطال إفريقيا",
@@ -220,19 +241,19 @@ window.__CA_NEWS_DATA__ = {
       "score": 82
     },
     {
-      "id": "755b6f4f01bf",
+      "id": "4e1d4ce65b87",
       "title": "انفراجة لجماهير الإفريقي في القاهرة قبل مواجهة الزمالك.. تفاصيل جديدة",
       "summary": "",
       "body": "",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93MEJyeVRCTWI0U09JQkp0aDhRYzREUjZ0dzI3X25LN1huVWVrN3B5bXBpM1JNMjZrelBoekwtYWZpTlN1U0RTb2UtUXRNMXFYdDNR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxQR1BMZWtfaFRodE5takdJV2YtZXRSNDhPYzIxeHE4NlJmX2dJVkFWMDZyNV8wMlZET1lIc0VQQWVzNzk2SGV3a2FVd2ExTlpCemNIMkRhNVVEVVZZSlR4ZFNhYWVDMlRMRGctcmRfZFRBWGIwejhKY0QzUzhWX2NPQzhYX05BSGZfOEFfSTZyTWtPTi1WX1NlajRvVjZlMTVFNWZ3cTEwclBRamx5OGg4RjdNZTgzQlBkRDJoYlBZQTNjTjlzbGVqTWpuNlpsend6V2RUS05GVjhTeGZpUWt5RGRaN3BnZDdUQkJsLXprYlN5UHROeld1TWVyWEdsSkdWTGEya1JIeE9paGVWYU5fcExCTGk3MEtUZExENHdXOEE3SnFXa05wSzFQQ0VNcF9Ka1RUMWlsUFpxQzdOaEZKbVNTTWk4SndkeE1uNnJKUmNycEl1ZnNqdlEwbG1Vdw?oc=5",
       "thumbnail": "",
-      "publishedAt": "11/27/2026 19:26:14",
+      "publishedAt": "11/27/2026 19:22:26",
       "lang": "ar",
       "topic": "caf",
       "isVideo": false,
       "sourceId": "google_news_ar",
-      "sourceName": "شبكة تواصل الإخبارية",
-      "sourceNameAr": "شبكة تواصل الإخبارية",
+      "sourceName": "365Scores",
+      "sourceNameAr": "365Scores",
       "sourceDomain": "news.google.com",
       "sourceCategory": "tunisian_press",
       "verification": "verified",
@@ -1480,13 +1501,13 @@ window.__CA_NEWS_DATA__ = {
       "score": 70
     },
     {
-      "id": "19dccec11606",
+      "id": "46b02cfa525a",
       "title": "النادي الإفريقي يستعيد ورقة مهمة قبل مواجهة الزمالك",
       "summary": "",
       "body": "",
-      "url": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxOSkV3T2FreDNHaDBQNHpjcDBZV3BNbGczeU1rNENYS1YwbkFNOEtWQTRTU2V1QnQxQ1hycm5YRG5LVU11RXpJRDdBVWd3NVVsdGUzb2J1akFYN1lsQ1ZqQVYtZ29PR1Azc1ktaGZhcEtGTjFiMmdEMTFhdEZ5czRYZGNrQm9XSTJhLThIZ01fRnhNbXljOFUyTjEzTFRiRlNqTjlrb29taXFDYmQ5b0FacmtvVklyYjJPQmoyTzZVWEdQZmdoY0trWlVDN3V4MlFrVWdjM2pGRGl4Tzhyd2RZSGJYWmhMZ25QQ290M1ZaaG1maUhqaDdJVzZHY3lnX24tMDZKbi1DRE9ZaGhqQno3bkJTOWtuN2E5emVaNmF3OURncHhoRVd5ZHAtdF9WOXNUSWRGUGgzZ1Y5NDlmTmlIWVhTTmVIRzBjTFNmZFlfcHFGazZxNWhnWU1fUEYzM29lSW43VmJvZl9EMl9KVVA2blNiOURFU01uYnpGTDlxNTlwUUZaTmQ1YWdSVVVKZmp1ZllPTTdmQ09ZaUhJN29iU2NSX2RWUTJvR3dCOUR5NElBSDF5NjBwVmZ5a21YazdXRWVfQWtVSjRkc3RyR1E1a05PbFdYcmNwZDBmYjFR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi4wNBVV95cUxPRW1JYU9fTFlKV1NzSU81eHlPcDdYdy1mU3NsQUU2dTNnVTNMSU9GSkJvVWtlR2hxdWIwUjBjMHRYckRRU3VlSTF3R3BGdzZCVGxOaUU1Umw1LWtyYUppTGpNMGhldmFWaWJsVzVtMmVaeUlTOURMQXZBU1o1LTA3TGxzdGJPZER4alhNbkhyQ2NkTWtqMnVNekEwRDQ4M0lxZUF6bTlFbGRuLWVnQXVsNWsyX3h1SHFVejNCcWxPZEx1T0hibm9od2ViTzVTckVMUi11dVJCLUdtTUljbm1jUDE5bV9HdklwZnJ4NFoxMUpudm1zZ2k5MWxvZXRhTU5nOF94alhWMzRVcm43N1h1YVluOURfTG9UQ0pLMUVXcEJIaU5qaTV3VjFsa3l6NXBoYUtQRUhwOE44blZ2TkV3ZG1faXBxeWxUUElnUFdWREJYczZWdGgxUVFrWkVzZXgxTk14dkc4VzZoYnFXRFE5aWdvYTZOUGNsS0huNEtEdkR6MThqWGt5TnlhUC1hMW1qeW85RXFFbmYwSFMxSXEySFhkZVBYcTR3bDJVVHNtaGxmUE9jTjg1MHBENUxWVTQtWG5PN1JKejhMa21CVW9kM1BBUHhyZXBnMTFyelJTbEg1NnM?oc=5",
       "thumbnail": "",
-      "publishedAt": "11/24/2026 17:31:36",
+      "publishedAt": "11/24/2026 17:34:32",
       "lang": "ar",
       "topic": "caf",
       "isVideo": false,
@@ -2591,27 +2612,6 @@ window.__CA_NEWS_DATA__ = {
       "featured": false,
       "isManual": false,
       "score": 77
-    },
-    {
-      "id": "0ff0235feae0",
-      "title": "LNFP : le Club Africain, le CS Sfaxien et le Stade Tunisien sanctionnés",
-      "summary": "",
-      "body": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV1IxX1NmQ0ZqOHhCVEhyNjNfcG9zblhBX0NsTlJIU3IwbnhZSlFBQ1hEOGpQckFtSmlPY1BjZnhxNWJQZlIyeUtsa1ZMWjZkY1QycHdWc3UtSUFRZEQ1enBEUXQxbDlWVmVqNEhzWndyaFMyMGxhUkZsNDBIbXQ5X19heGhjR2g3NER4RkZsdG9rZDNiWm1kVTA2VE9xQWxGb0h4S2xSaw?oc=5",
-      "thumbnail": "",
-      "publishedAt": "11/04/2026 08:00:00",
-      "lang": "fr",
-      "topic": "ligue1",
-      "isVideo": false,
-      "sourceId": "lapresse",
-      "sourceName": "La Presse de Tunisie",
-      "sourceNameAr": "لا بريس التونسية",
-      "sourceDomain": "lapresse.tn",
-      "sourceCategory": "tunisian_press",
-      "verification": "verified",
-      "featured": false,
-      "isManual": false,
-      "score": 76
     }
   ]
 };
